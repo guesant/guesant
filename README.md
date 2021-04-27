@@ -1,16 +1,13 @@
-### Hi there 👋
+# Olá 👋
 
-<!--
-**guesant/guesant** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![Editor de Texto: Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-%231DA1F2.svg?&logo=visual-studio-code)
+[![Telegram](https://img.shields.io/badge/Telegram-gabriel3t-%231DA1F2.svg?&logo=Telegram)](https://t.me/gabriel3t) 
+[![Twitter](https://img.shields.io/badge/Twitter-gabriel0x01-%231DA1F2.svg?&logo=Twitter)](https://twitter.com/gabriel0x01) 
 
-Here are some ideas to get you started:
+<a>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=guesant&langs_count=7&layout=compact&theme=nord&count_private=true" alt="top langs" />
+</a>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<a>
+<img src="https://github-readme-stats.vercel.app/api?username=guesant&theme=nord&include_all_commits=true&count_private=true" alt="github stats" />
+</a>
