@@ -1,6 +1,8 @@
 # Olá 👋
 
+![IDE: WebStorm](https://img.shields.io/badge/WebStorm-%232a5375.svg?&logo=WebStorm)
 ![Editor de Texto: Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-%231DA1F2.svg?&logo=visual-studio-code)
+
 [![Telegram](https://img.shields.io/badge/Telegram-@guesant-%231DA1F2.svg?&logo=Telegram)](https://t.me/guesant) 
 [![Discord](https://img.shields.io/badge/Discord-guesant%238151-%231DA1F2.svg?&logo=Discord)](#) 
 
