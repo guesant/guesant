@@ -40,6 +40,10 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=guesant&theme=holi) 
 
+---
+
+obrigado [anna bobona @annaisabelapont](https://github.com/annaisabelapont)
+
 <!-- ================================================================================================= -->
 
 <!-- Badges -->
