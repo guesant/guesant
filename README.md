@@ -1,15 +1,14 @@
-# Olá 👋
+# Olá, me chamo Gabriel Antunes 👋
 
 [![Brasil][proud-of-brazil-src]][proud-of-brazil-href]
 
-
-![Gabriel's GitHub stats](https://github-readme-stats.vercel.app/api?username=guesant&show_icons=true&theme=holi) 
+![Gabriel's GitHub stats][github-stats-src] 
 
 ## Contato
 
-[![Contato: E-Mail][badge-gmail-src]][badge-gmail-href]
 [![Contato: Telegram][badge-telegram-src]][badge-telegram-href]
 [![Contato: Discord][badge-discord-src]][badge-discord-href]
+[![Contato: E-Mail][badge-gmail-src]][badge-gmail-href]
 
 ## IDEs e Editores de Código Preferidos
 
@@ -18,30 +17,37 @@
 
 ## Plataformas, Tecnologias, Linguagens
 
-[![SO: Linux][badge-os-linux-src]][badge-os-linux-href] [![Tecnologia: Git][badge-tech-git-src]][badge-tech-git-href]
+[![SO: Linux][badge-os-linux-src]][badge-os-linux-href]
+[![Tecnologia: Git][badge-tech-git-src]][badge-tech-git-href]
 
 ### Infra
 
-[![Tecnologia: Docker][badge-tech-docker-src]][badge-tech-docker-href] [![Tecnologia: Kubernetes][badge-tech-k8s-src]][badge-tech-k8s-href]
-
+[![Tecnologia: Docker][badge-tech-docker-src]][badge-tech-docker-href]
+[![Tecnologia: Kubernetes][badge-tech-k8s-src]][badge-tech-k8s-href]
 
 ### Ecossistema JavaScript
 
-[![Tecnologia: JavaScript][badge-tech-js-src]][badge-tech-js-href] [![Tecnologia: NodeJS][badge-tech-js-node-src]][badge-tech-js-node-href] [![Tecnologia: TypeScript][badge-tech-js-ts-src]][badge-tech-js-ts-href]
+[![Tecnologia: JavaScript][badge-tech-js-src]][badge-tech-js-href]
+[![Tecnologia: NodeJS][badge-tech-js-node-src]][badge-tech-js-node-href]
+[![Tecnologia: TypeScript][badge-tech-js-ts-src]][badge-tech-js-ts-href]
 
 ### Ecossistema DotNet
 
-[![Tecnologia: DotNet][badge-tech-dotnet-src]][badge-tech-dotnet-href] [![Tecnologia: CSharp][badge-tech-dotnet-csharp-src]][badge-tech-dotnet-csharp-href] 
+[![Tecnologia: DotNet][badge-tech-dotnet-src]][badge-tech-dotnet-href]
+[![Tecnologia: CSharp][badge-tech-dotnet-csharp-src]][badge-tech-dotnet-csharp-href] 
 
-## Contribuições
+---
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=guesant&theme=holi) 
 
+<!-- ================================================================================================= -->
 
 <!-- Badges -->
 
 [proud-of-brazil-src]: https://img.shields.io/badge/Proud%20of-Brasil%20%F0%9F%87%A7%F0%9F%87%B7-white?style=for-the-badge&labelColor=%2309933C
 [proud-of-brazil-href]: https://www.gov.br/pt-br
+
+[github-stats-src]: https://github-readme-stats.vercel.app/api?username=guesant&show_icons=true&theme=holi
 
 <!-- Badges / Contatos --> 
 
@@ -50,11 +56,11 @@
 [badge-gmail-href]: mailto:annaisabelapont@gmail.com
 
 <!-- Badges / Contatos / Telegram--> 
-[badge-telegram-src]: https://img.shields.io/badge/Telegram-@guesant-%231DA1F2?style=for-the-badge&logo=Telegram&logoColor=white
+[badge-telegram-src]: https://img.shields.io/badge/Telegram-%40guesant-white?style=for-the-badge&logo=telegram&logoColor=white&labelColor=%2328A8E9
 [badge-telegram-href]: https://t.me/guesant
 
 <!-- Badges / Contatos / Discord --> 
-[badge-discord-src]: https://img.shields.io/badge/Discord-farofinogabriel-%231DA1F2?style=for-the-badge&logo=Discord&logoColor=white 
+[badge-discord-src]: https://img.shields.io/badge/Discord-farofinogabriel-white?style=for-the-badge&logo=discord&logoColor=white&labelColor=%235865F2
 [badge-discord-href]: #
 
 <!-- Badges / Editores -->
@@ -113,3 +119,4 @@
 [badge-tech-dotnet-csharp-src]: https://img.shields.io/badge/CSharp-%23512BD4?style=for-the-badge&logo=csharp&logoColor=white
 [badge-tech-dotnet-csharp-href]: https://dotnet.microsoft.com/pt-br/languages/csharp
 
+<!-- ================================================================================================= -->
