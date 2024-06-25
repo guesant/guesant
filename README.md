@@ -20,6 +20,11 @@
 
 [![SO: Linux][badge-os-linux-src]][badge-os-linux-href] [![Tecnologia: Git][badge-tech-git-src]][badge-tech-git-href]
 
+### Infra
+
+[![Tecnologia: Docker][badge-tech-docker-src]][badge-tech-docker-href] [![Tecnologia: Kubernetes][badge-tech-k8s-src]][badge-tech-k8s-href]
+
+
 ### Ecossistema JavaScript
 
 [![Tecnologia: JavaScript][badge-tech-js-src]][badge-tech-js-href] [![Tecnologia: NodeJS][badge-tech-js-node-src]][badge-tech-js-node-href] [![Tecnologia: TypeScript][badge-tech-js-ts-src]][badge-tech-js-ts-href]
@@ -36,7 +41,7 @@
 <!-- Badges -->
 
 [proud-of-brazil-src]: https://img.shields.io/badge/Proud%20of-Brasil%20%F0%9F%87%A7%F0%9F%87%B7-white?style=for-the-badge&labelColor=%2309933C
-[proud-of-brazil-href]: #
+[proud-of-brazil-href]: https://www.gov.br/pt-br
 
 <!-- Badges / Contatos --> 
 
@@ -65,35 +70,46 @@
 <!-- Badge / OS / Linux -->
 
 [badge-os-linux-src]: https://img.shields.io/badge/Linux-%23FCC624?style=for-the-badge&logo=linux&logoColor=black
-[badge-os-linux-href]: #
+[badge-os-linux-href]: https://www.kernel.org/
 
 <!-- Badges / Tech / Git -->
 
 [badge-tech-git-src]: https://img.shields.io/badge/Git-%23F05032?style=for-the-badge&logo=git&logoColor=white
-[badge-tech-git-href]: #
+[badge-tech-git-href]: https://git-scm.com/
+
+
+<!-- Badges / Tech / Docker -->
+
+[badge-tech-docker-src]: https://img.shields.io/badge/Docker-%232496ED?style=for-the-badge&logo=docker&logoColor=white
+[badge-tech-docker-href]: https://docs.docker.com/
+
+<!-- Badges / Tech / Kubernetes -->
+
+[badge-tech-k8s-src]: https://img.shields.io/badge/Kubernetes-%23326CE5?style=for-the-badge&logo=kubernetes&logoColor=white
+[badge-tech-k8s-href]: https://kubernetes.io/
 
 <!-- Badges / Tech / JS -->
 
 [badge-tech-js-src]: https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
-[badge-tech-js-href]: #
+[badge-tech-js-href]: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 
 <!-- Badges / Tech / JS / NodeJS -->
 
 [badge-tech-js-node-src]: https://img.shields.io/badge/NodeJS-%235FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white
-[badge-tech-js-node-href]: #
+[badge-tech-js-node-href]: https://nodejs.org/en
 
 <!-- Badges / Tech / JS / TypeScript -->
 
 [badge-tech-js-ts-src]: https://img.shields.io/badge/TypeScript-%233178C6?style=for-the-badge&logo=typescript&logoColor=white
-[badge-tech-js-ts-href]: #
+[badge-tech-js-ts-href]: https://www.typescriptlang.org/
 
 <!-- Badges / Tech / DotNet -->
 
 [badge-tech-dotnet-src]: https://img.shields.io/badge/DOTNET-%23512BD4?style=for-the-badge&logo=dotnet&logoColor=white
-[badge-tech-dotnet-href]: #
+[badge-tech-dotnet-href]: https://dotnet.microsoft.com/pt-br/
 
 <!-- Badges / Tech / DotNet / CSharp -->
 
 [badge-tech-dotnet-csharp-src]: https://img.shields.io/badge/CSharp-%23512BD4?style=for-the-badge&logo=csharp&logoColor=white
-[badge-tech-dotnet-csharp-href]: #
+[badge-tech-dotnet-csharp-href]: https://dotnet.microsoft.com/pt-br/languages/csharp
 
