@@ -42,7 +42,7 @@
 
 ---
 
-obrigado [anna bobona @annaisabelapont](https://github.com/annaisabelapont)
+obrigado [anna isabela](https://github.com/annaisabelapont)
 
 <!-- ================================================================================================= -->
 
@@ -57,7 +57,7 @@ obrigado [anna bobona @annaisabelapont](https://github.com/annaisabelapont)
 
 <!-- Badges / Contatos / G-Mail --> 
 [badge-gmail-src]: https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white
-[badge-gmail-href]: mailto:annaisabelapont@gmail.com
+[badge-gmail-href]: mailto:gabrielrodantunes@gmail.com
 
 <!-- Badges / Contatos / Telegram--> 
 [badge-telegram-src]: https://img.shields.io/badge/Telegram-%40guesant-white?style=for-the-badge&logo=telegram&logoColor=white&labelColor=%2328A8E9
