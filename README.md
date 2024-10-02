@@ -42,7 +42,7 @@
 
 ---
 
-obrigado [anna isabela](https://github.com/annaisabelapont)
+obrigado [anna bobona @annaisabelapont](https://github.com/annaisabelapont)
 
 <!-- ================================================================================================= -->
 
