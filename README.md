@@ -1,4 +1,4 @@
-# Olá, me chamo Gabriel Antunes 👋
+# Hello, my name is Gabriel Antunes 👋
 
 [![Brasil][proud-of-brazil-src]][proud-of-brazil-href]
 
