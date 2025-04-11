@@ -1,29 +1,65 @@
 # Hello, my name is Gabriel Antunes 👋
 
-[![Brasil][proud-of-brazil-src]][proud-of-brazil-href]
-
 ![Gabriel's GitHub stats][github-stats-src] 
 
-## Contato
+## Skills
 
-[![Contato: Telegram][badge-telegram-src]][badge-telegram-href]
-[![Contato: Discord][badge-discord-src]][badge-discord-href]
-[![Contato: E-Mail][badge-gmail-src]][badge-gmail-href]
+### Operating Systems
 
-## IDEs e Editores de Código Preferidos
+[![OS: Linux][badge-os-linux-src]][badge-os-linux-href]
 
-[![Editor de Texto: Visual Studio Code][badge-editor-vscode-src]][badge-editor-vscode-href]
-[![IDE: WebStorm][badge-editor-webstorm-src]][badge-editor-webstorm-href]
+<!-- Badge / OS / Linux -->
 
-## Plataformas, Tecnologias, Linguagens
+[badge-os-linux-src]: https://img.shields.io/badge/Linux-%23FCC624?style=for-the-badge&logo=linux&logoColor=black
+[badge-os-linux-href]: https://www.kernel.org/
 
-[![SO: Linux][badge-os-linux-src]][badge-os-linux-href]
-[![Tecnologia: Git][badge-tech-git-src]][badge-tech-git-href]
+### Tools
 
-### Infra
+[![Ferramenta: Git][badge-tech-git-src]][badge-tech-git-href]
+
+<!-- Badges / Tech / Git -->
+
+[badge-tech-git-src]: https://img.shields.io/badge/Git-%23F05032?style=for-the-badge&logo=git&logoColor=white
+[badge-tech-git-href]: https://git-scm.com/
+
+### Containers
 
 [![Tecnologia: Docker][badge-tech-docker-src]][badge-tech-docker-href]
-[![Tecnologia: Kubernetes][badge-tech-k8s-src]][badge-tech-k8s-href]
+
+<!-- Badges / Tech / Docker -->
+
+[badge-tech-docker-src]: https://img.shields.io/badge/Docker-%232496ED?style=for-the-badge&logo=docker&logoColor=white
+[badge-tech-docker-href]: https://docs.docker.com/
+
+### Clusters
+
+[![Clusters: Kubernetes][badge-tech-k8s-src]][badge-tech-k8s-href]
+[![Clusters: k3s][badge-tech-k3s-src]][badge-tech-k3s-href]
+
+<!-- Badges / Tech / Kubernetes -->
+
+[badge-tech-k8s-src]: https://img.shields.io/badge/Kubernetes-%23326CE5?style=for-the-badge&logo=kubernetes&logoColor=white
+[badge-tech-k8s-href]: https://kubernetes.io/
+
+<!-- Badges / Tech / k3s -->
+
+[badge-tech-k3s-src]: https://img.shields.io/badge/k3s-%23FFC61C?style=for-the-badge&logo=k3s&logoColor=black
+[badge-tech-k3s-href]: https://k3s.io/
+
+### Devops & CI/CD
+
+[![Devops: GitHub Actions][badge-skills-cicd-githubactions-src]][badge-skills-cicd-githubactions-href]
+[![Devops: GitLab CI][badge-skills-cicd-gitlabci-src]][badge-skills-cicd-gitlabci-href]
+
+<!-- Badges / Skiils / Devops & CI/CD / GitHub Actions -->
+
+[badge-skills-cicd-githubactions-src]: https://img.shields.io/badge/Github_Actions-%232088FF?style=for-the-badge&logo=githubactions&logoColor=white
+[badge-skills-cicd-githubactions-href]: https://github.com/features/actions
+
+<!-- Badges / Skiils / Devops & CI/CD / GitLab CI -->
+
+[badge-skills-cicd-gitlabci-src]: https://img.shields.io/badge/GitLab_CI-%23FC6D26?style=for-the-badge&logo=gitlab&logoColor=white
+[badge-skills-cicd-gitlabci-href]: https://about.gitlab.com/topics/ci-cd/
 
 ### Ecossistema JavaScript
 
@@ -36,9 +72,22 @@
 [![Tecnologia: DotNet][badge-tech-dotnet-src]][badge-tech-dotnet-href]
 [![Tecnologia: CSharp][badge-tech-dotnet-csharp-src]][badge-tech-dotnet-csharp-href] 
 
+### Contato
+
+[![Contato: Telegram][badge-telegram-src]][badge-telegram-href]
+[![Contato: Discord][badge-discord-src]][badge-discord-href]
+[![Contato: E-Mail][badge-gmail-src]][badge-gmail-href]
+
+### IDEs e Editores de Código Preferidos
+
+[![Editor de Texto: Visual Studio Code][badge-editor-vscode-src]][badge-editor-vscode-href]
+[![IDE: WebStorm][badge-editor-webstorm-src]][badge-editor-webstorm-href]
+
 ---
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=guesant&theme=holi) 
+
+[![Brasil][proud-of-brazil-src]][proud-of-brazil-href]
 
 ---
 
@@ -77,26 +126,7 @@ obrigado [anna bobona @annaisabelapont](https://github.com/annaisabelapont)
 [badge-editor-vscode-src]: https://img.shields.io/badge/VS%20Code-22A8F1?style=for-the-badge&logo=visual-studio-code&logoSize=amd
 [badge-editor-vscode-href]: https://code.visualstudio.com/
 
-<!-- Badge / OS / Linux -->
 
-[badge-os-linux-src]: https://img.shields.io/badge/Linux-%23FCC624?style=for-the-badge&logo=linux&logoColor=black
-[badge-os-linux-href]: https://www.kernel.org/
-
-<!-- Badges / Tech / Git -->
-
-[badge-tech-git-src]: https://img.shields.io/badge/Git-%23F05032?style=for-the-badge&logo=git&logoColor=white
-[badge-tech-git-href]: https://git-scm.com/
-
-
-<!-- Badges / Tech / Docker -->
-
-[badge-tech-docker-src]: https://img.shields.io/badge/Docker-%232496ED?style=for-the-badge&logo=docker&logoColor=white
-[badge-tech-docker-href]: https://docs.docker.com/
-
-<!-- Badges / Tech / Kubernetes -->
-
-[badge-tech-k8s-src]: https://img.shields.io/badge/Kubernetes-%23326CE5?style=for-the-badge&logo=kubernetes&logoColor=white
-[badge-tech-k8s-href]: https://kubernetes.io/
 
 <!-- Badges / Tech / JS -->
 
