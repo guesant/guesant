@@ -73,24 +73,24 @@
 [badge-skills-cicd-gitlabci-src]: https://img.shields.io/badge/GitLab_CI-%23FC6D26?style=for-the-badge&logo=gitlab&logoColor=white
 [badge-skills-cicd-gitlabci-href]: https://about.gitlab.com/topics/ci-cd/
 
-### Ecossistema JavaScript
+### EcmaScript / TypeScript / JavaScript
 
 [![Tecnologia: JavaScript][badge-tech-js-src]][badge-tech-js-href]
 [![Tecnologia: NodeJS][badge-tech-js-node-src]][badge-tech-js-node-href]
 [![Tecnologia: TypeScript][badge-tech-js-ts-src]][badge-tech-js-ts-href]
 
-### Ecossistema DotNet
+### DotNet
 
 [![Tecnologia: DotNet][badge-tech-dotnet-src]][badge-tech-dotnet-href]
 [![Tecnologia: CSharp][badge-tech-dotnet-csharp-src]][badge-tech-dotnet-csharp-href] 
 
-### Contato
+### Contacts
 
 [![Contato: Telegram][badge-telegram-src]][badge-telegram-href]
 [![Contato: Discord][badge-discord-src]][badge-discord-href]
 [![Contato: E-Mail][badge-gmail-src]][badge-gmail-href]
 
-### IDEs e Editores de Código Preferidos
+### IDEs & Code Editors
 
 [![Editor de Texto: Visual Studio Code][badge-editor-vscode-src]][badge-editor-vscode-href]
 [![IDE: WebStorm][badge-editor-webstorm-src]][badge-editor-webstorm-href]
