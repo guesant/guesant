@@ -17,16 +17,22 @@
 
 [![Ferramenta: Git][badge-skills-tools-git-src]][badge-skills-tools-git-href]
 [![Ferramenta: Vim][badge-skills-tools-vim-src]][badge-skills-tools-vim-href]
+[![Ferramenta: GNU Bash][badge-skills-tools-gnu_bash-src]][badge-skills-tools-gnu_bash-href]
 
 <!-- Badges / Skills / Tools / Git -->
 
 [badge-skills-tools-git-src]: https://img.shields.io/badge/Git-%23F05032?style=for-the-badge&logo=git&logoColor=white
 [badge-skills-tools-git-href]: https://git-scm.com/
 
-<!-- Badges / Skills / Tools / Git -->
+<!-- Badges / Skills / Tools / Vim -->
 
 [badge-skills-tools-vim-src]: https://img.shields.io/badge/Vim-%23019733?style=for-the-badge&logo=vim&logoColor=white
-[badge-skills-tools-vim-href]: https://git-scm.com/
+[badge-skills-tools-vim-href]: https://www.vim.org/
+
+<!-- Badges / Skills / Tools / GNU Bash -->
+
+[badge-skills-tools-gnu_bash-src]: https://img.shields.io/badge/GNU_Bash-%234EAA25?style=for-the-badge&logo=gnubash&logoColor=white
+[badge-skills-tools-gnu_bash-href]: https://www.gnu.org/software/bash/
 
 ### Containers
 
