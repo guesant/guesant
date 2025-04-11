@@ -15,12 +15,18 @@
 
 ### Tools
 
-[![Ferramenta: Git][badge-tech-git-src]][badge-tech-git-href]
+[![Ferramenta: Git][badge-skills-tools-git-src]][badge-skills-tools-git-href]
+[![Ferramenta: Vim][badge-skills-tools-vim-src]][badge-skills-tools-vim-href]
 
-<!-- Badges / Tech / Git -->
+<!-- Badges / Skills / Tools / Git -->
 
-[badge-tech-git-src]: https://img.shields.io/badge/Git-%23F05032?style=for-the-badge&logo=git&logoColor=white
-[badge-tech-git-href]: https://git-scm.com/
+[badge-skills-tools-git-src]: https://img.shields.io/badge/Git-%23F05032?style=for-the-badge&logo=git&logoColor=white
+[badge-skills-tools-git-href]: https://git-scm.com/
+
+<!-- Badges / Skills / Tools / Git -->
+
+[badge-skills-tools-vim-src]: https://img.shields.io/badge/Vim-%23019733?style=for-the-badge&logo=vim&logoColor=white
+[badge-skills-tools-vim-href]: https://git-scm.com/
 
 ### Containers
 
