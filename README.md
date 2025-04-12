@@ -84,6 +84,17 @@
 [![Tecnologia: DotNet][badge-tech-dotnet-src]][badge-tech-dotnet-href]
 [![Tecnologia: CSharp][badge-tech-dotnet-csharp-src]][badge-tech-dotnet-csharp-href] 
 
+<!-- Badges / Tech / DotNet -->
+
+[badge-tech-dotnet-src]: https://img.shields.io/badge/DOTNET-%23512BD4?style=for-the-badge&logo=dotnet&logoColor=white
+[badge-tech-dotnet-href]: https://dotnet.microsoft.com/pt-br/
+
+<!-- Badges / Tech / DotNet / CSharp -->
+
+[badge-tech-dotnet-csharp-src]: https://img.shields.io/badge/CSharp-%23512BD4?style=for-the-badge&logo=dotnet&logoColor=white
+[badge-tech-dotnet-csharp-href]: https://dotnet.microsoft.com/pt-br/languages/csharp
+
+
 ### Contacts
 
 [![Contato: Telegram][badge-telegram-src]][badge-telegram-href]
@@ -154,15 +165,5 @@ obrigado [anna bobona @annaisabelapont](https://github.com/annaisabelapont)
 
 [badge-tech-js-ts-src]: https://img.shields.io/badge/TypeScript-%233178C6?style=for-the-badge&logo=typescript&logoColor=white
 [badge-tech-js-ts-href]: https://www.typescriptlang.org/
-
-<!-- Badges / Tech / DotNet -->
-
-[badge-tech-dotnet-src]: https://img.shields.io/badge/DOTNET-%23512BD4?style=for-the-badge&logo=dotnet&logoColor=white
-[badge-tech-dotnet-href]: https://dotnet.microsoft.com/pt-br/
-
-<!-- Badges / Tech / DotNet / CSharp -->
-
-[badge-tech-dotnet-csharp-src]: https://img.shields.io/badge/CSharp-%23512BD4?style=for-the-badge&logo=csharp&logoColor=white
-[badge-tech-dotnet-csharp-href]: https://dotnet.microsoft.com/pt-br/languages/csharp
 
 <!-- ================================================================================================= -->
