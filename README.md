@@ -6,7 +6,12 @@
 
 ### Operating Systems
 
-[![OS: Linux][badge-os-linux-src]][badge-os-linux-href]
+[![OS: GNU][badge-os-gnu-src]][badge-os-gnu-href]+[![OS: Linux][badge-os-linux-src]][badge-os-linux-href]
+
+<!-- Badge / OS / GNU -->
+
+[badge-os-gnu-src]: https://img.shields.io/badge/GNU-%23A42E2B?style=for-the-badge&logo=gnu&logoColor=white
+[badge-os-gnu-href]: https://www.gnu.org/
 
 <!-- Badge / OS / Linux -->
 
@@ -79,7 +84,7 @@
 [![Tecnologia: NodeJS][badge-tech-js-node-src]][badge-tech-js-node-href]
 [![Tecnologia: TypeScript][badge-tech-js-ts-src]][badge-tech-js-ts-href]
 
-### DotNet
+### .NET
 
 [![Tecnologia: DotNet][badge-tech-dotnet-src]][badge-tech-dotnet-href]
 [![Tecnologia: CSharp][badge-tech-dotnet-csharp-src]][badge-tech-dotnet-csharp-href] 
