@@ -9,11 +9,19 @@ Spoken Languages
 
 Contacts
 
-[![Contact: E-Mail][badge-gmail-src]][badge-gmail-href]
+[![Contact: E-Mail][badge-contact-gmail-src]][badge-contact-gmail-href]
+[![Contact: LinkedIn][badge-contact-linkedin-src]][badge-contact-linkedin-href]
 
-<!-- Badges / Contatos / G-Mail --> 
-[badge-gmail-src]: https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white
-[badge-gmail-href]: mailto:gabrielrodantunes@gmail.com
+<!-- Badges / Contacts / G-Mail --> 
+[badge-contact-gmail-src]: https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white
+[badge-contact-gmail-href]: mailto:gabrielrodantunes@gmail.com
+
+<!-- Badges / Contacts / LinkedIn --> 
+[badge-contact-linkedin-src]: https://img.shields.io/badge/LinkedIn-%230a66c2?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1saW5rZWRpbi1pY29uIGx1Y2lkZS1saW5rZWRpbiI%2BPHBhdGggZD0iTTE2IDhhNiA2IDAgMCAxIDYgNnY3aC00di03YTIgMiAwIDAgMC0yLTIgMiAyIDAgMCAwLTIgMnY3aC00di03YTYgNiAwIDAgMSA2LTZ6Ii8%2BPHJlY3Qgd2lkdGg9IjQiIGhlaWdodD0iMTIiIHg9IjIiIHk9IjkiLz48Y2lyY2xlIGN4PSI0IiBjeT0iNCIgcj0iMiIvPjwvc3ZnPg%3D%3D
+[badge-contact-linkedin-href]: https://www.linkedin.com/in/gabrielrodantunes/
+
+<!-- http://lattes.cnpq.br/5981427817317311 -->
+
 
 ## Skills
 
@@ -162,7 +170,7 @@ Contacts
 [badge-editor-webstorm-href]: https://www.jetbrains.com/webstorm/
 
 <!-- Badges / Editores / VS Code -->
-[badge-editor-vscode-src]: https://img.shields.io/badge/VS%20Code-22A8F1?style=for-the-badge&logo=vscodium&logoSize=amd&logoColor=white
+[badge-editor-vscode-src]: https://img.shields.io/badge/VS%20Code-22A8F1?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZD0iTTIzLjE1IDIuNTg3IDE4LjIxLjIxYTEuNDk0IDEuNDk0IDAgMCAwLTEuNzA1LjI5bC05LjQ2IDguNjMtNC4xMi0zLjEyOGEuOTk5Ljk5OSAwIDAgMC0xLjI3Ni4wNTdMLjMyNyA3LjI2MUExIDEgMCAwIDAgLjMyNiA4Ljc0TDMuODk5IDEyIC4zMjYgMTUuMjZhMSAxIDAgMCAwIC4wMDEgMS40NzlMMS42NSAxNy45NGEuOTk5Ljk5OSAwIDAgMCAxLjI3Ni4wNTdsNC4xMi0zLjEyOCA5LjQ2IDguNjNhMS40OTIgMS40OTIgMCAwIDAgMS43MDQuMjlsNC45NDItMi4zNzdBMS41IDEuNSAwIDAgMCAyNCAyMC4wNlYzLjkzOWExLjUgMS41IDAgMCAwLS44NS0xLjM1MnptLTUuMTQ2IDE0Ljg2MUwxMC44MjYgMTJsNy4xNzgtNS40NDh2MTAuODk2eiIvPjwvc3ZnPg%3D%3D
 [badge-editor-vscode-href]: https://code.visualstudio.com/
 
 ---
