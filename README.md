@@ -7,6 +7,11 @@ Spoken Languages
 - English
 - Brazillian Portuguese
 
+Hobbies
+- Coffe and code
+- Geopolitics, music and watch movies
+- Learn new things and how to do by myself
+
 Social
 
 [![Contact: E-Mail][badge-contact-gmail-src]][badge-contact-gmail-href]
