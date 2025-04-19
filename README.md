@@ -19,6 +19,9 @@ Social
 [![Contact: Lattes][badge-contact-lattes-src]][badge-contact-lattes-href]
 [![Contact: ORCID][badge-contact-orcid-src]][badge-contact-orcid-href]
 
+Born in Ji-Paraná, Rondônia - 🇧🇷
+Currently living on my hometown.
+
 <!-- Badges / Contacts / G-Mail --> 
 [badge-contact-gmail-src]: https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white
 [badge-contact-gmail-href]: mailto:gabrielrodantunes@gmail.com
