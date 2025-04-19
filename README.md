@@ -45,21 +45,21 @@ Currently living on my hometown.
 
 [![OS: GNU][badge-os-gnu-src]][badge-os-gnu-href]+[![OS: Linux][badge-os-linux-src]][badge-os-linux-href]
 
-<!-- Badge / OS / GNU -->
+<!-- Badge / Skills / OS / GNU -->
 
 [badge-os-gnu-src]: https://img.shields.io/badge/GNU-%23A42E2B?style=for-the-badge&logo=gnu&logoColor=white
 [badge-os-gnu-href]: https://www.gnu.org/
 
-<!-- Badge / OS / Linux -->
+<!-- Badge / Skills / OS / Linux -->
 
 [badge-os-linux-src]: https://img.shields.io/badge/Linux-%23FCC624?style=for-the-badge&logo=linux&logoColor=black
 [badge-os-linux-href]: https://www.kernel.org/
 
 ### Tools
 
-[![Ferramenta: Git][badge-skills-tools-git-src]][badge-skills-tools-git-href]
-[![Ferramenta: Vim][badge-skills-tools-vim-src]][badge-skills-tools-vim-href]
-[![Ferramenta: GNU Bash][badge-skills-tools-gnu_bash-src]][badge-skills-tools-gnu_bash-href]
+[![Tool: Git][badge-skills-tools-git-src]][badge-skills-tools-git-href]
+[![Tool: Vim][badge-skills-tools-vim-src]][badge-skills-tools-vim-href]
+[![Tool: GNU Bash][badge-skills-tools-gnu_bash-src]][badge-skills-tools-gnu_bash-href]
 
 <!-- Badges / Skills / Tools / Git -->
 
@@ -78,45 +78,52 @@ Currently living on my hometown.
 
 ### Containers
 
-[![Tecnologia: Docker][badge-tech-docker-src]][badge-tech-docker-href]
+[![Tecnologia: Docker][badge-skills-containers-docker-src]][badge-skills-containers-docker-href]
 
-<!-- Badges / Tech / Docker -->
+<!-- Badges / Skills / Docker -->
 
-[badge-tech-docker-src]: https://img.shields.io/badge/Docker-%232496ED?style=for-the-badge&logo=docker&logoColor=white
-[badge-tech-docker-href]: https://docs.docker.com/
+[badge-skills-containers-docker-src]: https://img.shields.io/badge/Docker-%232496ED?style=for-the-badge&logo=docker&logoColor=white
+[badge-skills-containers-docker-href]: https://docs.docker.com/
 
 ### Clusters
 
-[![Clusters: Kubernetes][badge-tech-k8s-src]][badge-tech-k8s-href]
-[![Clusters: Helm][badge-tech-helm-src]][badge-tech-helm-href]
-[![Clusters: k3s][badge-tech-k3s-src]][badge-tech-k3s-href]
-[![Clusters: Proxmox CE][badge-tech-proxmox-src]][badge-tech-proxmox-href]
-[![Clusters: Portainer CE][badge-tech-portainer-src]][badge-tech-portainer-href]
+[![Clusters: Kubernetes][badge-skills-clusteres-k8s-src]][badge-skills-clusteres-k8s-href]
+[![Clusters: Helm][badge-skills-clusteres-helm-src]][badge-skills-clusteres-helm-href]
+[![Clusters: k3s][badge-skills-clusteres-k3s-src]][badge-skills-clusteres-k3s-href]
+[![Clusters: Proxmox CE][badge-skills-clusteres-proxmox-src]][badge-skills-clusteres-proxmox-href]
+[![Clusters: Portainer CE][badge-skills-clusteres-portainer-src]][badge-skills-clusteres-portainer-href]
+[![Clusters: pfSense CE][badge-skills-clusteres-pfsense-src]][badge-skills-clusteres-pfsense-href]
 
-<!-- Badges / Tech / Kubernetes -->
+<!-- Badges / Skills / Clusters / Kubernetes -->
 
-[badge-tech-k8s-src]: https://img.shields.io/badge/Kubernetes-%23326CE5?style=for-the-badge&logo=kubernetes&logoColor=white
-[badge-tech-k8s-href]: https://kubernetes.io/
+[badge-skills-clusteres-k8s-src]: https://img.shields.io/badge/Kubernetes-%23326CE5?style=for-the-badge&logo=kubernetes&logoColor=white
+[badge-skills-clusteres-k8s-href]: https://kubernetes.io/
 
-<!-- Badges / Tech / Helm -->
+<!-- Badges / Skills / Clusters /Helm -->
 
-[badge-tech-helm-src]: https://img.shields.io/badge/Helm-%230F1689?style=for-the-badge&logo=helm&logoColor=white
-[badge-tech-helm-href]: https://helm.sh/
+[badge-skills-clusteres-helm-src]: https://img.shields.io/badge/Helm-%230F1689?style=for-the-badge&logo=helm&logoColor=white
+[badge-skills-clusteres-helm-href]: https://helm.sh/
 
-<!-- Badges / Tech / k3s -->
+<!-- Badges / Skills / Clusters / k3s -->
 
-[badge-tech-k3s-src]: https://img.shields.io/badge/k3s-%23FFC61C?style=for-the-badge&logo=k3s&logoColor=black
-[badge-tech-k3s-href]: https://k3s.io/
+[badge-skills-clusteres-k3s-src]: https://img.shields.io/badge/k3s-%23FFC61C?style=for-the-badge&logo=k3s&logoColor=black
+[badge-skills-clusteres-k3s-href]: https://k3s.io/
 
-<!-- Badges / Tech / Proxmox -->
+<!-- Badges / Skills / Clusters / Proxmox -->
 
-[badge-tech-proxmox-src]: https://img.shields.io/badge/Proxmox_CE-%23E57000?style=for-the-badge&logo=proxmox&logoColor=white
-[badge-tech-proxmox-href]: https://www.proxmox.com/
+[badge-skills-clusteres-proxmox-src]: https://img.shields.io/badge/Proxmox_CE-%23E57000?style=for-the-badge&logo=proxmox&logoColor=white
+[badge-skills-clusteres-proxmox-href]: https://www.proxmox.com/
 
-<!-- Badges / Tech / Portainer -->
+<!-- Badges / Skills / Clusters / Portainer -->
 
-[badge-tech-portainer-src]: https://img.shields.io/badge/Portainer_CE-%2313BEF9?style=for-the-badge&logo=portainer&logoColor=white
-[badge-tech-portainer-href]: https://www.portainer.io/
+[badge-skills-clusteres-portainer-src]: https://img.shields.io/badge/Portainer_CE-%2313BEF9?style=for-the-badge&logo=portainer&logoColor=white
+[badge-skills-clusteres-portainer-href]: https://www.portainer.io/
+
+<!-- Badges / Skills / Clusters / pfSense -->
+
+[badge-skills-clusteres-pfsense-src]: https://img.shields.io/badge/pfSense_CE-212121?style=for-the-badge&logo=pfsense&logoColor=white
+[badge-skills-clusteres-pfsense-href]: https://www.pfsense.org/
+
 
 ### Devops & CI/CD
 
@@ -135,42 +142,57 @@ Currently living on my hometown.
 
 ### EcmaScript
 
-[![Tecnologia: Bun][badge-tech-bun-src]][badge-tech-bun-href]
-[![Tecnologia: NodeJS][badge-tech-js-node-src]][badge-tech-js-node-href]
-[![Tecnologia: TypeScript][badge-tech-js-ts-src]][badge-tech-js-ts-href]
-[![Tecnologia: JavaScript][badge-tech-js-src]][badge-tech-js-href]
+[![EcmaScript: Bun][badge-skills-ecma-bun-src]][badge-skills-ecma-bun-href]
+[![EcmaScript: NodeJS][badge-skills-ecma-js-node-src]][badge-skills-ecma-js-node-href]
+[![EcmaScript: TypeScript][badge-skills-ecma-js-ts-src]][badge-skills-ecma-js-ts-href]
+[![EcmaScript: JavaScript][badge-skills-ecma-js-src]][badge-skills-ecma-js-href]
 
-<!-- Badges / Tech / Ecma / Bun -->
+<!-- Badges / Skills / Ecma / Bun -->
 
-[badge-tech-bun-src]: https://img.shields.io/badge/Bun-%23000000?style=for-the-badge&logo=bun&logoColor=white
-[badge-tech-bun-href]: https://bun.sh/
+[badge-skills-ecma-bun-src]: https://img.shields.io/badge/Bun-%23000000?style=for-the-badge&logo=bun&logoColor=white
+[badge-skills-ecma-bun-href]: https://bun.sh/
 
-<!-- Badges / Tech / Ecma / TypeScript -->
+<!-- Badges / Skills / Ecma / TypeScript -->
 
-[badge-tech-js-ts-src]: https://img.shields.io/badge/TypeScript-%233178C6?style=for-the-badge&logo=typescript&logoColor=white
-[badge-tech-js-ts-href]: https://www.typescriptlang.org/
+[badge-skills-ecma-js-ts-src]: https://img.shields.io/badge/TypeScript-%233178C6?style=for-the-badge&logo=typescript&logoColor=white
+[badge-skills-ecma-js-ts-href]: https://www.typescriptlang.org/
 
-<!-- Badges / Tech / Ecma / JS -->
+<!-- Badges / Skills / Ecma / JS -->
 
-[badge-tech-js-src]: https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
-[badge-tech-js-href]: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+[badge-skills-ecma-js-src]: https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[badge-skills-ecma-js-href]: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 
-<!-- Badges / Tech / Ecma / NodeJS -->
+<!-- Badges / Skills / Ecma / NodeJS -->
 
-[badge-tech-js-node-src]: https://img.shields.io/badge/NodeJS-%235FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white
-[badge-tech-js-node-href]: https://nodejs.org/en
+[badge-skills-ecma-js-node-src]: https://img.shields.io/badge/NodeJS-%235FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white
+[badge-skills-ecma-js-node-href]: https://nodejs.org/en
 
 ### Front-end
 
-- HTML
+[![Front-end: HTML][badge-skills-front-html-src]][badge-skills-front-html-href]
+[![Front-end: CSS][badge-skills-front-css-src]][badge-skills-front-css-href]
+[![Front-end: React.JS][badge-skills-front-react-src]][badge-skills-front-react-href]
+[![Front-end: Vue.JS][badge-skills-front-vue-src]][badge-skills-front-vue-href]
 
-- CSS
+<!-- Badges / Skills / Front-end / HTML -->
 
-- React
+[badge-skills-front-html-src]: https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[badge-skills-front-html-href]: https://www.w3.org/html/
 
-- Vue
+<!-- Badges / Skills / Front-end / CSS -->
 
-- WPF / WF
+[badge-skills-front-css-src]: https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=css&logoColor=white
+[badge-skills-front-css-href]: https://www.w3.org/Style/CSS/
+
+<!-- Badges / Skills / Front-end / React.JS -->
+
+[badge-skills-front-react-src]: https://img.shields.io/badge/React.JS-61DAFB?style=for-the-badge&logo=react&logoColor=black
+[badge-skills-front-react-href]: https://react.dev/
+
+<!-- Badges / Skills / Front-end / Vue.JS -->
+
+[badge-skills-front-vue-src]: https://img.shields.io/badge/Vue.JS-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white
+[badge-skills-front-vue-href]: https://vuejs.org/
 
 ### .NET
 
