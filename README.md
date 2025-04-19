@@ -20,6 +20,7 @@ Social
 [![Contact: ORCID][badge-contact-orcid-src]][badge-contact-orcid-href]
 
 Born in Ji-Paraná, Rondônia - 🇧🇷
+
 Currently living on my hometown.
 
 <!-- Badges / Contacts / G-Mail --> 
