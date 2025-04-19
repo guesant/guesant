@@ -160,6 +160,16 @@ Currently living on my hometown.
 [badge-tech-js-node-src]: https://img.shields.io/badge/NodeJS-%235FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white
 [badge-tech-js-node-href]: https://nodejs.org/en
 
+## Front-end
+
+- HTML
+
+- CSS
+
+- React
+
+- Vue
+
 ### .NET
 
 [![Tecnologia: DotNet][badge-tech-dotnet-src]][badge-tech-dotnet-href]
