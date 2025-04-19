@@ -10,7 +10,7 @@ Spoken Languages
 Hobbies
 - Coffe and code
 - Geopolitics, music and watch movies
-- Learn new things and how to do by myself
+- Learn new things, how it works internally and how to do by myself
 
 Social
 
