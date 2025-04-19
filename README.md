@@ -39,7 +39,7 @@ Currently living on my hometown.
 [badge-contact-orcid-src]: https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white
 [badge-contact-orcid-href]: https://orcid.org/0009-0009-0221-943X
 
-## Skills
+## Tech Skills
 
 ### Operating Systems
 
