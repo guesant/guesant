@@ -170,6 +170,8 @@ Currently living on my hometown.
 
 - Vue
 
+- WPF / WF
+
 ### .NET
 
 [![Tecnologia: DotNet][badge-tech-dotnet-src]][badge-tech-dotnet-href]
