@@ -193,13 +193,13 @@ Currently living on my hometown.
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=guesant&theme=holi) 
 
-[![Brasil][proud-of-brazil-src]][proud-of-brazil-href]
+[![Born in Brazil][born-in-brazil-src]][born-in-brazil-href]
 
 💍 [anna bobona @annaisabelapont](https://github.com/annaisabelapont)
 
 <!-- Badges -->
 
-[proud-of-brazil-src]: https://img.shields.io/badge/Proud%20of-Brasil%20%F0%9F%87%A7%F0%9F%87%B7-white?style=for-the-badge&labelColor=%2309933C
-[proud-of-brazil-href]: https://www.gov.br/pt-br
+[born-in-brazil-src]: https://img.shields.io/badge/Born%20in-Brasil%20%F0%9F%87%A7%F0%9F%87%B7-white?style=for-the-badge&labelColor=%2309933C
+[born-in-brazil-href]: https://en.wikipedia.org/wiki/Brazil
 
 [github-stats-src]: https://github-readme-stats.vercel.app/api?username=guesant&show_icons=true&theme=holi
