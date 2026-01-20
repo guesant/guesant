@@ -229,8 +229,6 @@ Currently living on my hometown.
 
 [![Born in Brazil][born-in-brazil-src]][born-in-brazil-href]
 
-💍 [anna bobona @annaisabelapont](https://github.com/annaisabelapont)
-
 <!-- Badges -->
 
 [born-in-brazil-src]: https://img.shields.io/badge/Born%20in-Brasil%20%F0%9F%87%A7%F0%9F%87%B7-white?style=for-the-badge&labelColor=%2309933C
