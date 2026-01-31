@@ -225,7 +225,7 @@ Currently living on my hometown.
 
 ---
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=guesant&theme=holi) 
+![Top Langs](./profile/top-langs.svg) 
 
 [![Born in Brazil][born-in-brazil-src]][born-in-brazil-href]
 
@@ -234,4 +234,4 @@ Currently living on my hometown.
 [born-in-brazil-src]: https://img.shields.io/badge/Born%20in-Brasil%20%F0%9F%87%A7%F0%9F%87%B7-white?style=for-the-badge&labelColor=%2309933C
 [born-in-brazil-href]: https://en.wikipedia.org/wiki/Brazil
 
-[github-stats-src]: https://github-readme-stats.vercel.app/api?username=guesant&show_icons=true&theme=holi
+[github-stats-src]: ./profile/stats.svg
