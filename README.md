@@ -199,6 +199,29 @@ Currently living on my hometown.
 [![Tecnologia: DotNet][badge-tech-dotnet-src]][badge-tech-dotnet-href]
 [![Tecnologia: CSharp][badge-tech-dotnet-csharp-src]][badge-tech-dotnet-csharp-href] 
 
+
+### PHP
+
+[![Tecnologia: PHP][badge-tech-php-src]][badge-tech-php-href]
+[![Tecnologia: Yii2][badge-tech-yii-src]][badge-tech-yii-href]
+[![Tecnologia: WordPress][badge-tech-wp-src]][badge-tech-wp-href]
+
+<!-- Badges / Tech / PHP -->
+
+[badge-tech-php-src]: https://img.shields.io/badge/PHP-%234f5b93?style=for-the-badge&logo=php&logoColor=white
+[badge-tech-php-href]: https://www.php.net/
+
+<!-- Badges / Tech / Yii -->
+
+[badge-tech-yii-src]: https://img.shields.io/badge/Yii-%2340B3D8?style=for-the-badge&logo=yii&logoColor=white
+[badge-tech-yii-href]: https://www.yiiframework.com/
+
+
+<!-- Badges / Tech / Wordpress -->
+
+[badge-tech-wp-src]: https://img.shields.io/badge/WordPress-%2321759B?style=for-the-badge&logo=wordpress&logoColor=white
+[badge-tech-wp-href]: https://wordpress.org/
+
 <!-- Badges / Tech / DotNet -->
 
 [badge-tech-dotnet-src]: https://img.shields.io/badge/DOTNET-%23512BD4?style=for-the-badge&logo=dotnet&logoColor=white
