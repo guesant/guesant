@@ -4,8 +4,8 @@
 
 Spoken Languages
 
-- English
 - Brazillian Portuguese
+- English
 
 Hobbies
 - Coffe and code
@@ -44,6 +44,7 @@ Currently living on my hometown.
 ### Operating Systems
 
 [![OS: GNU][badge-os-gnu-src]][badge-os-gnu-href]+[![OS: Linux][badge-os-linux-src]][badge-os-linux-href]
+[![OS: macOS][badge-os-macos-src]][badge-os-macos-href]
 
 <!-- Badge / Skills / OS / GNU -->
 
@@ -54,6 +55,11 @@ Currently living on my hometown.
 
 [badge-os-linux-src]: https://img.shields.io/badge/Linux-%23FCC624?style=for-the-badge&logo=linux&logoColor=black
 [badge-os-linux-href]: https://www.kernel.org/
+
+<!-- Badge / Skills / OS / macOS -->
+
+[badge-os-macos-src]: https://img.shields.io/badge/macOS-%23000000?style=for-the-badge&logo=macos&logoColor=white
+[badge-os-macos-href]: https://www.apple.com/br/os/macos/
 
 ### Tools
 
