@@ -1,4 +1,4 @@
-# Hello, my name is Gabriel Antunes 👋
+# Hello, my name is Gabriel Rodrigues Antunes 👋
 
 ![Gabriel's GitHub stats][github-stats-src] 
 
@@ -18,6 +18,7 @@ Social
 [![Contact: LinkedIn][badge-contact-linkedin-src]][badge-contact-linkedin-href]
 [![Contact: Lattes][badge-contact-lattes-src]][badge-contact-lattes-href]
 [![Contact: ORCID][badge-contact-orcid-src]][badge-contact-orcid-href]
+[![Contact: Instagram][badge-contact-instagram-src]][badge-contact-instagram-href]
 
 Born in Ji-Paraná, Rondônia - 🇧🇷
 
@@ -38,6 +39,12 @@ Currently living on my hometown.
 <!-- Badges / Contacts / G-Mail --> 
 [badge-contact-orcid-src]: https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white
 [badge-contact-orcid-href]: https://orcid.org/0009-0009-0221-943X
+
+
+<!-- Badges / Contacts / Instagram --> 
+[badge-contact-instagram-src]: https://img.shields.io/badge/Instagram-FF0069?style=for-the-badge&logo=instagram&logoColor=white
+[badge-contact-instagram-href]: https://www.instagram.com/briel_rodriguess
+
 
 ## Tech Skills
 
