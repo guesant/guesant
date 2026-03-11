@@ -19,6 +19,7 @@ Social
 [![Contact: Lattes][badge-contact-lattes-src]][badge-contact-lattes-href]
 [![Contact: ORCID][badge-contact-orcid-src]][badge-contact-orcid-href]
 [![Contact: Instagram][badge-contact-instagram-src]][badge-contact-instagram-href]
+[![Contact: GitLab][badge-contact-gitlab-src]][badge-contact-gitlab-href]
 
 Born in Ji-Paraná, Rondônia - 🇧🇷
 
@@ -44,6 +45,10 @@ Currently living on my hometown.
 <!-- Badges / Contacts / Instagram --> 
 [badge-contact-instagram-src]: https://img.shields.io/badge/Instagram-FF0069?style=for-the-badge&logo=instagram&logoColor=white
 [badge-contact-instagram-href]: https://www.instagram.com/briel_rodriguess
+
+<!-- Badges / Contacts / GitLab --> 
+[badge-contact-gitlab-src]: https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white
+[badge-contact-gitlab-href]: https://gitlab.com/guesant
 
 
 ## Tech Skills
