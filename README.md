@@ -55,8 +55,9 @@ Currently living on my hometown.
 
 ### Operating Systems
 
-[![OS: GNU][badge-os-gnu-src]][badge-os-gnu-href]+[![OS: Linux][badge-os-linux-src]][badge-os-linux-href]
+[![OS: GNU][badge-os-gnu-src]][badge-os-gnu-href][![OS: Linux][badge-os-linux-src]][badge-os-linux-href]
 [![OS: macOS][badge-os-macos-src]][badge-os-macos-href]
+[![OS: Windows][badge-os-windows-src]][badge-os-windows-href]
 
 <!-- Badge / Skills / OS / GNU -->
 
@@ -72,6 +73,11 @@ Currently living on my hometown.
 
 [badge-os-macos-src]: https://img.shields.io/badge/macOS-%23000000?style=for-the-badge&logo=macos&logoColor=white
 [badge-os-macos-href]: https://www.apple.com/br/os/macos/
+
+<!-- Badge / Skills / OS / Windows -->
+
+[badge-os-windows-src]: https://img.shields.io/badge/Windows-%230078d4?style=for-the-badge
+[badge-os-windows-href]: https://pt.wikipedia.org/wiki/Microsoft_Windows
 
 ### Tools
 
