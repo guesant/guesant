@@ -147,6 +147,7 @@ Currently living on my hometown.
 
 [![Devops: GitHub Actions][badge-skills-cicd-githubactions-src]][badge-skills-cicd-githubactions-href]
 [![Devops: GitLab CI][badge-skills-cicd-gitlabci-src]][badge-skills-cicd-gitlabci-href]
+[![Devops: Azure Pipelines][badge-skills-cicd-azurep-src]][badge-skills-cicd-azurep-href]
 
 <!-- Badges / Skiils / Devops & CI/CD / GitHub Actions -->
 
@@ -157,6 +158,11 @@ Currently living on my hometown.
 
 [badge-skills-cicd-gitlabci-src]: https://img.shields.io/badge/GitLab_CI-%23FC6D26?style=for-the-badge&logo=gitlab&logoColor=white
 [badge-skills-cicd-gitlabci-href]: https://about.gitlab.com/topics/ci-cd/
+
+<!-- Badges / Skiils / Devops & CI/CD / Azure Pipelines -->
+
+[badge-skills-cicd-azurep-src]: https://img.shields.io/badge/Azure_Pipelines-%230078d4?style=for-the-badge
+[badge-skills-cicd-azurep-href]: https://azure.microsoft.com/pt-br/products/devops/pipelines
 
 ### EcmaScript
 
