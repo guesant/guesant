@@ -44,7 +44,7 @@ Currently living on my hometown.
 
 <!-- Badges / Contacts / Instagram --> 
 [badge-contact-instagram-src]: https://img.shields.io/badge/Instagram-FF0069?style=for-the-badge&logo=instagram&logoColor=white
-[badge-contact-instagram-href]: https://www.instagram.com/briel_rodriguess
+[badge-contact-instagram-href]: https://www.instagram.com/gues.ant
 
 <!-- Badges / Contacts / GitLab --> 
 [badge-contact-gitlab-src]: https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white
