@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Gabriel R. Antunes' GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 84, Total Commits  (last year) : 1368, Total PRs: 1215, Total Issues: 539, Contributed to (last year): 12</desc>
+        <desc id="descId">Total Stars Earned: 84, Total Commits  (last year) : 1367, Total PRs: 1215, Total Issues: 539, Contributed to (last year): 12</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 33.839624623215514;
+        stroke-dashoffset: 33.829560778631524;
       }
     }
   
