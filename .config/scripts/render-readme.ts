@@ -4,6 +4,7 @@ import { listMarkdown } from './list-markdown.ts';
 import { markdownText } from './markdown-text.ts';
 import type { BadgeStyles } from './profile.types.ts';
 import type { Profile } from './profile.types.ts';
+import { readmeTemplate } from './readme-template.ts';
 import { socialMarkdown } from './social-markdown.ts';
 import { technologyMarkdown } from './technology-markdown.ts';
 
@@ -26,11 +27,24 @@ export function renderReadme(profile: Profile, styles: BadgeStyles): string {
 
   const countryStyle = styles['birth-country'];
 
-  const born = badgeLink(profile.birthCountry.name, profile.birthCountry.url, {
-    color: countryStyle?.color ?? 'white',
-    parameters: countryStyle?.parameters ?? {},
-    label: 'Born in',
-  });
+  const birthCountryBadge = badgeLink(
+    profile.birthCountry.name,
+    profile.birthCountry.url,
+    {
+      color: countryStyle?.color ?? 'white',
+      parameters: countryStyle?.parameters ?? {},
+      label: 'Born in',
+    },
+  );
 
-  return `# Hello, my name is ${name} 👋\n\n![GitHub stats](./profile/stats.svg)\n\nSpoken Languages\n\n${languages}\n\nHobbies\n\n${hobbies}\n\nSocial\n\n${social}\n\nBorn in ${birthPlace}.\n\nCurrently living in ${residence}.\n\n## Tech Skills\n\n${technologies}\n\n---\n\n![Top Languages](./profile/top-langs.svg)\n\n${born}\n\n[Lobby](https://guesant.net/en/) · [Profile Data](https://github.com/guesant/lobby/tree/main/website/src/data) · [Technologies](https://github.com/guesant/resume/blob/main/cv/technologies.yaml)\n`;
+  return readmeTemplate({
+    name,
+    languages,
+    hobbies,
+    social,
+    birthPlace,
+    residence,
+    technologies,
+    birthCountryBadge,
+  });
 }
