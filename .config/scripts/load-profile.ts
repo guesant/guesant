@@ -1,36 +1,40 @@
-import { readFile } from 'node:fs/promises';
-import { parse } from 'yaml';
+import { loadYaml } from './load-yaml.ts';
 import { parseProfile } from './parse-profile.ts';
-import type { Profile } from './profile.types.ts';
-import { responseText } from './response-text.ts';
+import type { Profile, SourceOptions } from './profile.types.ts';
+import { repositorySource } from './repository-source.ts';
 
-export async function loadProfile(localFile?: string): Promise<Profile> {
-  let source: string;
+export async function loadProfile(
+  options: SourceOptions = {},
+): Promise<Profile> {
+  const lobby = await repositorySource('lobby', options.lobbyDirectory);
 
-  if (localFile) {
-    source = await readFile(localFile, 'utf8');
-  } else {
-    const response = await fetch('https://guesant.net/profile.yaml', {
-      redirect: 'error',
-      signal: AbortSignal.timeout(15000),
-      headers: {
-        accept: 'application/yaml',
-        'user-agent':
-          'guesant-profile-generator/1.0 (+https://github.com/guesant/guesant)',
-      },
-    });
+  const resume = await repositorySource('resume', options.resumeDirectory);
 
-    source = await responseText(response);
-  }
+  const personal = loadYaml(lobby, 'website/src/data/profile.yaml');
 
-  if (Buffer.byteLength(source) > 1048576) {
-    throw new Error('Profile exceeds size limit');
-  }
+  const links = loadYaml(lobby, 'website/src/data/links.yaml');
 
-  const document: unknown = parse(source, {
-    uniqueKeys: true,
-    maxAliasCount: 0,
-  });
+  const editorial = loadYaml(lobby, 'website/src/data/editorial.yaml');
 
-  return parseProfile(document);
+  const technologies = loadYaml(resume, 'cv/technologies.yaml');
+
+  const documents = await Promise.all([
+    personal,
+    links,
+    editorial,
+    technologies,
+  ]);
+
+  return parseProfile(
+    {
+      personal: documents[0],
+      links: documents[1],
+      editorial: documents[2],
+      technologies: documents[3],
+    },
+    {
+      lobby: lobby.revision,
+      resume: resume.revision,
+    },
+  );
 }

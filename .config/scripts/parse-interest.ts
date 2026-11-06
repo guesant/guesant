@@ -5,9 +5,13 @@ import { text } from './text.ts';
 export function parseInterest(value: unknown): Interest {
   const item = record(value);
 
+  const labels = record(item['labels']);
+
+  const english = record(labels['en']);
+
   return {
     id: text(item['id']),
-    title: text(item['title']),
-    description: text(item['description'], true),
+    title: text(english['title']),
+    description: text(english['description'] ?? '', true),
   };
 }

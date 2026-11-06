@@ -1,3 +1,8 @@
 import { generateReadme } from './generate-readme.ts';
 
-await generateReadme(process.env['PROFILE_YAML_FILE']);
+const revisions = await generateReadme({
+  lobbyDirectory: process.env['PROFILE_LOBBY_DIR'],
+  resumeDirectory: process.env['PROFILE_RESUME_DIR'],
+});
+
+console.log('Profile sources:', revisions);

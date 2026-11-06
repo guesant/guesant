@@ -118,4 +118,4 @@ Currently living in Ji-Paraná, Rondônia, Brazil.
 
 [![Born in Brazil](https://img.shields.io/badge/Born%20in-Brazil-white?style=for-the-badge&labelColor=%2309933C)](https://en.wikipedia.org/wiki/Brazil)
 
-[Lobby](https://guesant.net/en/) · [Profile Data](https://guesant.net/profile.yaml)
+[Lobby](https://guesant.net/en/) · [Profile Data](https://github.com/guesant/lobby/tree/main/website/src/data) · [Technologies](https://github.com/guesant/resume/blob/main/cv/technologies.yaml)

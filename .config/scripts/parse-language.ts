@@ -1,5 +1,8 @@
-import { text } from './text.ts';
+import { englishText } from './english-text.ts';
+import { record } from './record.ts';
 
 export function parseLanguage(value: unknown): string {
-  return text(value);
+  const language = record(value);
+
+  return englishText(language['labels']);
 }

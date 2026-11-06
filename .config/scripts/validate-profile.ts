@@ -3,7 +3,8 @@ import { uniqueItems } from './unique-items.ts';
 
 export function validateProfile(profile: Profile): Profile {
   if (
-    !/^(?:[a-f0-9]{40}|local)$/u.test(profile.revision) ||
+    !/^(?:[a-f0-9]{40}|local)$/u.test(profile.revisions.lobby) ||
+    !/^(?:[a-f0-9]{40}|local)$/u.test(profile.revisions.resume) ||
     !/^[a-z0-9-]+$/iu.test(profile.username)
   ) {
     throw new Error('Invalid profile provenance or username');

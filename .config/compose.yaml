@@ -8,9 +8,11 @@ services:
     volumes:
       - ..:/workspace
       - dependencies:/workspace/.config/node_modules
-      - ../../links/.local/build/site:/lobby:ro
+      - ../../links:/sources/lobby:ro
+      - ../../resume:/sources/resume:ro
     environment:
-      PROFILE_YAML_FILE: ${PROFILE_YAML_FILE:-}
+      PROFILE_LOBBY_DIR: ${PROFILE_LOBBY_DIR:-}
+      PROFILE_RESUME_DIR: ${PROFILE_RESUME_DIR:-}
     init: true
 volumes:
   dependencies:

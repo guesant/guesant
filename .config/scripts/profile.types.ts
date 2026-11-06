@@ -25,7 +25,7 @@ export type TechnologyGroup = {
 export type Profile = {
   name: string;
   username: string;
-  revision: string;
+  revisions: SourceRevisions;
   spokenLanguages: string[];
   birthPlace: string;
   residence: string;
@@ -45,3 +45,26 @@ export type BadgeStyle = {
 };
 
 export type BadgeStyles = Record<string, BadgeStyle>;
+
+export type SourceRevisions = {
+  lobby: string;
+  resume: string;
+};
+
+export type SourceOptions = {
+  lobbyDirectory?: string | undefined;
+  resumeDirectory?: string | undefined;
+};
+
+export type RepositorySource = {
+  repository: 'lobby' | 'resume';
+  revision: string;
+  directory: string | undefined;
+};
+
+export type ProfileDocuments = {
+  personal: unknown;
+  links: unknown;
+  editorial: unknown;
+  technologies: unknown;
+};

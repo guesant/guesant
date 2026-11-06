@@ -1,51 +1,55 @@
-import { parseLanguage } from './parse-language.ts';
 import { array } from './array.ts';
-import { parseContact } from './parse-contact.ts';
-import { parseGroup } from './parse-group.ts';
-import { parseInterest } from './parse-interest.ts';
-import type { Profile } from './profile.types.ts';
+import { englishText } from './english-text.ts';
+import { parseLanguage } from './parse-language.ts';
+import type {
+  Profile,
+  ProfileDocuments,
+  SourceRevisions,
+} from './profile.types.ts';
+import { profileContacts } from './profile-contacts.ts';
+import { profileInterests } from './profile-interests.ts';
+import { profileTechnologies } from './profile-technologies.ts';
 import { record } from './record.ts';
 import { safeURL } from './safe-url.ts';
 import { text } from './text.ts';
 import { validateProfile } from './validate-profile.ts';
 
-export function parseProfile(value: unknown): Profile {
-  const document = record(value);
+export function parseProfile(
+  sources: ProfileDocuments,
+  revisions: SourceRevisions,
+): Profile {
+  const document = record(sources.personal);
 
-  const source = record(document['source']);
+  const links = record(sources.links);
+
+  const identity = record(links['profile']);
+
+  const editorial = record(sources.editorial);
+
+  const entries = record(editorial['entries']);
 
   const country = record(document['birth_country']);
 
-  if (
-    document['version'] !== 1 ||
-    document['language'] !== 'en' ||
-    source['url'] !== 'https://guesant.net/profile.yaml'
-  ) {
-    throw new Error('Unsupported profile contract');
+  if (document['version'] !== 1) {
+    throw new Error('Unsupported personal profile');
   }
 
   const languages = array(document['spoken_languages']);
 
-  const contacts = array(document['contacts']);
-
-  const interests = array(document['interests']);
-
-  const technologies = array(document['technologies']);
-
   const profile: Profile = {
-    name: text(document['name']),
-    username: text(document['username']),
-    revision: text(source['revision']),
+    name: text(document['full_name']),
+    username: text(identity['username']),
+    revisions,
     spokenLanguages: languages.map(parseLanguage),
-    birthPlace: text(document['birth_place']),
-    residence: text(document['residence']),
+    birthPlace: englishText(document['birth_place']),
+    residence: englishText(document['residence']),
     birthCountry: {
-      name: text(country['name']),
+      name: englishText(country['labels']),
       url: safeURL(country['url']),
     },
-    contacts: contacts.map(parseContact),
-    interests: interests.map(parseInterest),
-    technologies: technologies.map(parseGroup),
+    contacts: profileContacts(document['contact_links'], links['sections']),
+    interests: profileInterests(entries['interests']),
+    technologies: profileTechnologies(sources.technologies),
   };
 
   return validateProfile(profile);

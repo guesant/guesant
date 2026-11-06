@@ -1,15 +1,39 @@
 export async function responseText(response: Response): Promise<string> {
-  if (response.ok) {
-    return response.text();
+  if (!response.ok) {
+    throw new Error(`Source download failed: HTTP ${response.status}`);
   }
 
-  const status = String(response.status);
+  const reader = response.body?.getReader();
 
-  const server = response.headers.get('server') ?? 'unknown';
+  if (!reader) {
+    throw new Error('Source response has no body');
+  }
 
-  const mitigation = response.headers.get('cf-mitigated') ?? 'none';
+  const chunks: Uint8Array[] = [];
 
-  throw new Error(
-    `Profile download failed: HTTP ${status}; server=${server}; mitigation=${mitigation}`,
-  );
+  let size = 0;
+
+  try {
+    for (;;) {
+      const chunk = await reader.read();
+
+      if (chunk.done) {
+        const buffer = Buffer.concat(chunks);
+
+        return buffer.toString('utf8');
+      }
+
+      size += chunk.value.byteLength;
+
+      if (size > 1048576) {
+        throw new Error('Source response exceeds size limit');
+      }
+
+      chunks.push(chunk.value);
+    }
+  } finally {
+    await reader.cancel();
+
+    reader.releaseLock();
+  }
 }
