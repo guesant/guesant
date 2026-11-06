@@ -1,0 +1,16 @@
+name: guesant-profile
+services:
+  generator:
+    build:
+      context: ..
+      dockerfile: .config/Dockerfile
+    working_dir: /workspace/.config
+    volumes:
+      - ..:/workspace
+      - dependencies:/workspace/.config/node_modules
+      - ../../links/.local/build/site:/lobby:ro
+    environment:
+      PROFILE_YAML_FILE: ${PROFILE_YAML_FILE:-}
+    init: true
+volumes:
+  dependencies:

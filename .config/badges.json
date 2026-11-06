@@ -1,0 +1,266 @@
+{
+  "contact-email": {
+    "color": "red",
+    "parameters": {
+      "logo": "gmail",
+      "logoColor": "white"
+    }
+  },
+  "contact-linkedin": {
+    "color": "#0a66c2",
+    "parameters": {
+      "logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1saW5rZWRpbi1pY29uIGx1Y2lkZS1saW5rZWRpbiI+PHBhdGggZD0iTTE2IDhhNiA2IDAgMCAxIDYgNnY3aC00di03YTIgMiAwIDAgMC0yLTIgMiAyIDAgMCAwLTIgMnY3aC00di03YTYgNiAwIDAgMSA2LTZ6Ii8+PHJlY3Qgd2lkdGg9IjQiIGhlaWdodD0iMTIiIHg9IjIiIHk9IjkiLz48Y2lyY2xlIGN4PSI0IiBjeT0iNCIgcj0iMiIvPjwvc3ZnPg=="
+    }
+  },
+  "contact-lattes": {
+    "color": "#05589c",
+    "parameters": {
+      "logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NSIgaGVpZ2h0PSI0NSIgZmlsbD0ibm9uZSI+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj48cGF0aCBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMC4zOTg5IDE4Ljk0MTdjMC0yLjgwMTQgMi4yMi00Ljk2ODYgNC44ODkzLTQuOTY4NiAyLjcyMjEgMCA0Ljg4OTIgMi4xNjcyIDQuODg5MiA0Ljk2ODYgMCAxLjI5NjctLjUxNTEgMi41NDAzLTEuNDMyIDMuNDU3Mi0uOTE2OS45MTY5LTIuMTYwNSAxLjQzMi0zLjQ1NzIgMS40MzJzLTIuNTQwMy0uNTE1MS0zLjQ1NzItMS40MzJjLS45MTY5LS45MTY5LTEuNDMyMS0yLjE2MDUtMS40MzIxLTMuNDU3MlptMjEuNzc3LTguMzUxNGMxLjQzNzcgMy4wMTQ3IDIuMDY2OSA2LjM1MTUgMS44MjYgOS42ODI3LS4yNDA5IDMuMzMxMy0xLjM0MzggNi41NDI4LTMuMjAwMyA5LjMxOTNsNC4wNDM2IDE1LjI0OTFoLTQuODM2NGwtNC43MzA3LTE2LjQxMmMxLjcxNDQtMS44MDk3IDIuOTA5Ni00LjA0NzggMy40Ni02LjQ3OTIuNTUwMy0yLjQzMTMuNDM1NC00Ljk2Ni0uMzMyNi03LjMzNzZzLTIuMTYwNy00LjQ5MjUtNC4wMzE4LTYuMTM5NzNjLTEuODcxMS0xLjY0NzIxLTQuMTUxNC0yLjc1OTktNi42MDEyLTMuMjIxMDktMS45OTEzLS40Mjg5LTQuMDUzOS0uNC02LjAzMjQuMDg0NTItMS45Nzg1LjQ4NDUzLTMuODIxIDEuNDEyMDItNS4zODg4IDIuNzEyNTItMS41Njc3IDEuMzAwNDktMi44MTk2IDIuOTM5OTgtMy42NjEzIDQuNzk0ODgtLjg0MTYgMS44NTQ5LTEuMjUxMSAzLjg3NjctMS4xOTc0IDUuOTEzIDAgMC0yLjk4NjQxIDcuMjk0Mi00LjEyMjgyIDkuOTYzNGgzLjMwMzUydjExLjE3OTJoMTkuOTUzNGwxLjM3NDMgNS4wNDc4SDUuNzA0NzlWMzMuMDU0NEguMTU0ODM5UzYuMjA2OTMgMTkuMjA1OSA2LjE1NDA3IDE4Ljc1NjdDNi41NTA1IDEzLjgxNDYgOC43MTc2MiA3LjgxNTMzIDEzLjM5NTQgNC4xNDE3OSAxNS43MjExIDIuMzE4MjMgMTguODkyNS41NzM5NiAyMy4xNzM5LjE1MTEwN2M0LjU5ODYtLjUwMjEzOSA2LjYwNzEuMzE3MTQgOS42MTk5IDEuNDI3MTMzIDQuMDgwMiAxLjgyMTY2IDcuMzk3OCA1LjAwODQ3IDkuMzgyMSA5LjAxMjA2Wm0tNC45OTUgNC4zODcxYy42OTMyIDIuMjU5OS43NDM5IDQuNjY4LjE0NjUgNi45NTUtLjU5NzQgMi4yODcxLTEuODE5NCA0LjM2MjgtMy41MjkzIDUuOTk0OUwzOC43OTMxIDQ1aC00Ljk5NWMtMS42MTIxLTYuMjg5OS0zLjY3MzUtMTMuMTYxMy01LjMzODUtMTkuMjkyNy45Nzc4LS42MDc4IDMuODMyMS0yLjE2NzEgNC4yMDIxLTUuOTQ2NC40NDkzLTMuNDg4NS0xLjcxNzgtNi4yODk5LTMuMjI0My03LjI2NzgtMS4zMjE0LS44NDU3LTMuMjc3MS0xLjQwMDctNS4xMDA2LTEuMDU3MS0xLjU4ODkuMjEwMi0zLjA2OTkuOTE5OS00LjIyOSAyLjAyNjgtMS4xNTkxIDEuMTA2OC0xLjkzNjQgMi41NTM1LTIuMjE5NSA0LjEzMS0uMDUyOS4zOTY0LS4wNTI5LjU1NS0uMDUyOSAxLjE2MjkgMCAwLTEuNDUzNiAzLjgzMjEtMS44NSA1LjAyMTNoMS4wMDQzdjkuOTM3MWgxMS44Mzk5bDEuNDUzNSA0Ljk0MjFIMTIuMDQ3NlYyNy41NTczbC0yLjUxMDctLjEzMjFjLjk1MTQtMi42NjkzIDMuMzAzNS04LjY2ODUgMy4zMDM1LTguNjY4NS4yMTE1LTIuMTY3Mi4zNy02LjM0MjggNC44MzY0LTkuNzc4NTMgMS45ODIyLTEuNzE3ODQgNS4yNTkzLTIuODgwNjkgOC42Njg1LTIuNTYzNTUgMi40MzYyLjI0MDc4IDQuNzUyMSAxLjE3NTU2IDYuNjcyOCAyLjY5MzM3IDEuOTIwNiAxLjUxNzgxIDMuMzY1NCAzLjU1NDkxIDQuMTYyOCA1Ljg2OTQxWiIgY2xpcC1ydWxlPSJldmVub2RkIi8+PC9nPjxkZWZzPjxjbGlwUGF0aCBpZD0iYSI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGg0NXY0NUgweiIvPjwvY2xpcFBhdGg+PC9kZWZzPjwvc3ZnPg=="
+    }
+  },
+  "contact-orcid": {
+    "color": "A6CE39",
+    "parameters": {
+      "logo": "orcid",
+      "logoColor": "white"
+    }
+  },
+  "contact-instagram": {
+    "color": "FF0069",
+    "parameters": {
+      "logo": "instagram",
+      "logoColor": "white"
+    }
+  },
+  "contact-gitlab": {
+    "color": "FC6D26",
+    "parameters": {
+      "logo": "gitlab",
+      "logoColor": "white"
+    }
+  },
+  "technology-gnu": {
+    "color": "#A42E2B",
+    "parameters": {
+      "logo": "gnu",
+      "logoColor": "white"
+    }
+  },
+  "technology-linux": {
+    "color": "#FCC624",
+    "parameters": {
+      "logo": "linux",
+      "logoColor": "black"
+    }
+  },
+  "technology-macos": {
+    "color": "#000000",
+    "parameters": {
+      "logo": "macos",
+      "logoColor": "white"
+    }
+  },
+  "technology-windows": {
+    "color": "#0078d4",
+    "parameters": {}
+  },
+  "technology-git": {
+    "color": "#F05032",
+    "parameters": {
+      "logo": "git",
+      "logoColor": "white"
+    }
+  },
+  "technology-vim": {
+    "color": "#019733",
+    "parameters": {
+      "logo": "vim",
+      "logoColor": "white"
+    }
+  },
+  "technology-bash": {
+    "color": "#4EAA25",
+    "parameters": {
+      "logo": "gnubash",
+      "logoColor": "white"
+    }
+  },
+  "technology-docker": {
+    "color": "#2496ED",
+    "parameters": {
+      "logo": "docker",
+      "logoColor": "white"
+    }
+  },
+  "technology-kubernetes": {
+    "color": "#326CE5",
+    "parameters": {
+      "logo": "kubernetes",
+      "logoColor": "white"
+    }
+  },
+  "technology-helm": {
+    "color": "#0F1689",
+    "parameters": {
+      "logo": "helm",
+      "logoColor": "white"
+    }
+  },
+  "technology-k3s": {
+    "color": "#FFC61C",
+    "parameters": {
+      "logo": "k3s",
+      "logoColor": "black"
+    }
+  },
+  "technology-proxmox": {
+    "color": "#E57000",
+    "parameters": {
+      "logo": "proxmox",
+      "logoColor": "white"
+    }
+  },
+  "technology-portainer": {
+    "color": "#13BEF9",
+    "parameters": {
+      "logo": "portainer",
+      "logoColor": "white"
+    }
+  },
+  "technology-pfsense": {
+    "color": "212121",
+    "parameters": {
+      "logo": "pfsense",
+      "logoColor": "white"
+    }
+  },
+  "technology-github-actions": {
+    "color": "#2088FF",
+    "parameters": {
+      "logo": "githubactions",
+      "logoColor": "white"
+    }
+  },
+  "technology-gitlab-ci": {
+    "color": "#FC6D26",
+    "parameters": {
+      "logo": "gitlab",
+      "logoColor": "white"
+    }
+  },
+  "technology-azure-pipelines": {
+    "color": "#0078d4",
+    "parameters": {}
+  },
+  "technology-bun": {
+    "color": "#000000",
+    "parameters": {
+      "logo": "bun",
+      "logoColor": "white"
+    }
+  },
+  "technology-nodejs": {
+    "color": "#5FA04E",
+    "parameters": {
+      "logo": "nodedotjs",
+      "logoColor": "white"
+    }
+  },
+  "technology-typescript": {
+    "color": "#3178C6",
+    "parameters": {
+      "logo": "typescript",
+      "logoColor": "white"
+    }
+  },
+  "technology-javascript": {
+    "color": "#F7DF1E",
+    "parameters": {
+      "logo": "javascript",
+      "logoColor": "black"
+    }
+  },
+  "technology-html": {
+    "color": "E34F26",
+    "parameters": {
+      "logo": "html5",
+      "logoColor": "white"
+    }
+  },
+  "technology-css": {
+    "color": "663399",
+    "parameters": {
+      "logo": "css",
+      "logoColor": "white"
+    }
+  },
+  "technology-react": {
+    "color": "61DAFB",
+    "parameters": {
+      "logo": "react",
+      "logoColor": "black"
+    }
+  },
+  "technology-vue": {
+    "color": "4FC08D",
+    "parameters": {
+      "logo": "vuedotjs",
+      "logoColor": "white"
+    }
+  },
+  "technology-dotnet": {
+    "color": "#512BD4",
+    "parameters": {
+      "logo": "dotnet",
+      "logoColor": "white"
+    }
+  },
+  "technology-csharp": {
+    "color": "#512BD4",
+    "parameters": {
+      "logo": "dotnet",
+      "logoColor": "white"
+    }
+  },
+  "technology-php": {
+    "color": "#4f5b93",
+    "parameters": {
+      "logo": "php",
+      "logoColor": "white"
+    }
+  },
+  "technology-yii": {
+    "color": "#40B3D8",
+    "parameters": {
+      "logo": "yii",
+      "logoColor": "white"
+    }
+  },
+  "technology-wordpress": {
+    "color": "#21759B",
+    "parameters": {
+      "logo": "wordpress",
+      "logoColor": "white"
+    }
+  },
+  "technology-vscode": {
+    "color": "22A8F1",
+    "parameters": {
+      "logo": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiNmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIzLjE1IDIuNTg3IDE4LjIxLjIxYTEuNDk0IDEuNDk0IDAgMCAwLTEuNzA1LjI5bC05LjQ2IDguNjMtNC4xMi0zLjEyOGEuOTk5Ljk5OSAwIDAgMC0xLjI3Ni4wNTdMLjMyNyA3LjI2MUExIDEgMCAwIDAgLjMyNiA4Ljc0TDMuODk5IDEyIC4zMjYgMTUuMjZhMSAxIDAgMCAwIC4wMDEgMS40NzlMMS42NSAxNy45NGEuOTk5Ljk5OSAwIDAgMCAxLjI3Ni4wNTdsNC4xMi0zLjEyOCA5LjQ2IDguNjNhMS40OTIgMS40OTIgMCAwIDAgMS43MDQuMjlsNC45NDItMi4zNzdBMS41IDEuNSAwIDAgMCAyNCAyMC4wNlYzLjkzOWExLjUgMS41IDAgMCAwLS44NS0xLjM1MnptLTUuMTQ2IDE0Ljg2MUwxMC44MjYgMTJsNy4xNzgtNS40NDh2MTAuODk2eiIvPjwvc3ZnPg=="
+    }
+  },
+  "technology-webstorm": {
+    "color": "B6E9C4",
+    "parameters": {
+      "logo": "WebStorm",
+      "logoColor": "black",
+      "logoSize": "amd"
+    }
+  },
+  "birth-country": {
+    "color": "white",
+    "parameters": {
+      "labelColor": "#09933C"
+    }
+  }
+}
