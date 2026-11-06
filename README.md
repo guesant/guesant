@@ -44,7 +44,7 @@ Currently living in Ji-Paraná, Rondônia, Brazil.
 ### Containers
 
 [![Docker](https://img.shields.io/badge/Docker-%232496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/)
-[![Docker Swarm](https://img.shields.io/badge/Docker%20Swarm-24292f?style=for-the-badge)](https://docs.docker.com/engine/swarm/)
+[![Docker Swarm](https://img.shields.io/badge/Docker%20Swarm-%232496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/engine/swarm/)
 
 ### Clusters
 
@@ -67,7 +67,7 @@ Currently living in Ji-Paraná, Rondônia, Brazil.
 [![Node.js](https://img.shields.io/badge/Node.js-%235FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/en)
 [![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-[![NestJS](https://img.shields.io/badge/NestJS-24292f?style=for-the-badge)](https://nestjs.com/)
+[![NestJS](https://img.shields.io/badge/NestJS-%23E0234E?style=for-the-badge&logo=nestjs&logoColor=white)](https://nestjs.com/)
 
 ### Front-end
 
@@ -75,9 +75,9 @@ Currently living in Ji-Paraná, Rondônia, Brazil.
 [![CSS](https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=css&logoColor=white)](https://www.w3.org/Style/CSS/)
 [![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)](https://vuejs.org/)
-[![Next.js](https://img.shields.io/badge/Next.js-24292f?style=for-the-badge)](https://nextjs.org/)
-[![React Native](https://img.shields.io/badge/React%20Native-24292f?style=for-the-badge)](https://reactnative.dev/)
-[![Expo](https://img.shields.io/badge/Expo-24292f?style=for-the-badge)](https://expo.dev/)
+[![Next.js](https://img.shields.io/badge/Next.js-%23000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![React Native](https://img.shields.io/badge/React%20Native-%2361DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactnative.dev/)
+[![Expo](https://img.shields.io/badge/Expo-%23000020?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
 
 ### .NET
 
@@ -89,7 +89,7 @@ Currently living in Ji-Paraná, Rondônia, Brazil.
 [![PHP](https://img.shields.io/badge/PHP-%234f5b93?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
 [![Yii 2](https://img.shields.io/badge/Yii%202-%2340B3D8?style=for-the-badge&logo=yii&logoColor=white)](https://www.yiiframework.com/)
 [![WordPress](https://img.shields.io/badge/WordPress-%2321759B?style=for-the-badge&logo=wordpress&logoColor=white)](https://wordpress.org/)
-[![Symfony](https://img.shields.io/badge/Symfony-24292f?style=for-the-badge)](https://symfony.com/)
+[![Symfony](https://img.shields.io/badge/Symfony-%23000000?style=for-the-badge&logo=symfony&logoColor=white)](https://symfony.com/)
 
 ### IDEs & Code Editors
 
@@ -98,19 +98,19 @@ Currently living in Ji-Paraná, Rondônia, Brazil.
 
 ### Data & APIs
 
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-24292f?style=for-the-badge)](https://www.postgresql.org/)
-[![GraphQL](https://img.shields.io/badge/GraphQL-24292f?style=for-the-badge)](https://graphql.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%234169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![GraphQL](https://img.shields.io/badge/GraphQL-%23E10098?style=for-the-badge&logo=graphql&logoColor=white)](https://graphql.org/)
 
 ### Quality & Design
 
-[![Figma](https://img.shields.io/badge/Figma-24292f?style=for-the-badge)](https://www.figma.com/)
-[![Cypress](https://img.shields.io/badge/Cypress-24292f?style=for-the-badge)](https://www.cypress.io/)
-[![SonarQube](https://img.shields.io/badge/SonarQube-24292f?style=for-the-badge)](https://www.sonarsource.com/products/sonarqube/)
+[![Figma](https://img.shields.io/badge/Figma-%23F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/)
+[![Cypress](https://img.shields.io/badge/Cypress-%2317202C?style=for-the-badge&logo=cypress&logoColor=white)](https://www.cypress.io/)
+[![SonarQube](https://img.shields.io/badge/SonarQube-%23126ED3?style=for-the-badge&logo=sonarqubeserver&logoColor=white)](https://www.sonarsource.com/products/sonarqube/)
 
 ### Identity & Cloud
 
-[![Keycloak](https://img.shields.io/badge/Keycloak-24292f?style=for-the-badge)](https://www.keycloak.org/)
-[![Azure](https://img.shields.io/badge/Azure-24292f?style=for-the-badge)](https://azure.microsoft.com/)
+[![Keycloak](https://img.shields.io/badge/Keycloak-%234D4D4D?style=for-the-badge&logo=keycloak&logoColor=white)](https://www.keycloak.org/)
+[![Azure](https://img.shields.io/badge/Azure-%230078D4?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNDMuOTgzIDQuNjUzYTUuOTExIDUuOTExIDAgMDE1LjYgNC4wMjJsMzUuOTEgMTA2LjM5NmE1LjkxMSA1LjkxMSAwIDAxLTUuNjAzIDcuODAyaDQxLjM4YTUuOTE3IDUuOTE3IDAgMDA0LjgtMi40NjUgNS45MDkgNS45MDkgMCAwMC43OTgtNS4zNEw5MC45NjEgOC42NzJhNS45MSA1LjkxIDAgMDAtNS42MDItNC4wMjJ6bS0xLjMzNi40NzhhNS45MiA1LjkyIDAgMDAtNS42MSA0LjAyOUwxLjEzMiAxMTUuNTVhNS45MSA1LjkxIDAgMDA1LjYgNy44aDI4Ljg5M2MxLjIzOSAwIDIuNDQ2LS40MSAzLjQ1Mi0xLjExM2E1LjkyMyA1LjkyMyAwIDAwMi4xNTctMi45MTZsNy4wMTktMjAuNzEtMTMuNDExLTEyLjg1N2MtLjI0Ni0uMjczLTEuMzUzLTIuMjc0LS4zNjktNC4wMDIgMS4xMDgtMS42NTkgMi45NTUtMS42NTkgMi45NTUtMS42NTloMTcuMjg1bDkuMDc0LTI2LjE0NUw0OC4yNzQgOC4zMjFjLS4wNDItLjIwNS0uOTE0LTEuMzY1LTIuMjgxLTIuMjgtMS4zNy0uOTE1LTMuMzQ1LS45MDktMy4zNDUtLjkwOXptLTQuODggNzUuNzRhMi43MjQgMi43MjQgMCAwMC0xLjg2IDQuNzE4bDM3LjgzIDM1LjMxYzEuMTAxIDEuMDMgMi41MDIgMS42MzEgNC4wMDcgMS42MzEgMCAwIDEuMjgyLjA2OCAyLjA1NS0uMDMzIDEuODE3LS4yNzMgMy41MjUtMS43NjggNC4wOS0yLjM5IDEuNDU3LTEuOTM5Ljc5NC00Ljk1Ljc5NC00Ljk1bC0xMS40NS0zNC4yOHoiIGZpbGw9IiNmZmYiLz48L3N2Zz4K)](https://azure.microsoft.com/)
 
 ---
 

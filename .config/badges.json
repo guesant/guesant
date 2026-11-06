@@ -262,5 +262,96 @@
     "parameters": {
       "labelColor": "#09933C"
     }
+  },
+  "technology-docker-swarm": {
+    "color": "#2496ED",
+    "parameters": {
+      "logo": "docker",
+      "logoColor": "white"
+    }
+  },
+  "technology-nestjs": {
+    "color": "#E0234E",
+    "parameters": {
+      "logo": "nestjs",
+      "logoColor": "white"
+    }
+  },
+  "technology-nextjs": {
+    "color": "#000000",
+    "parameters": {
+      "logo": "nextdotjs",
+      "logoColor": "white"
+    }
+  },
+  "technology-react-native": {
+    "color": "#61DAFB",
+    "parameters": {
+      "logo": "react",
+      "logoColor": "black"
+    }
+  },
+  "technology-expo": {
+    "color": "#000020",
+    "parameters": {
+      "logo": "expo",
+      "logoColor": "white"
+    }
+  },
+  "technology-symfony": {
+    "color": "#000000",
+    "parameters": {
+      "logo": "symfony",
+      "logoColor": "white"
+    }
+  },
+  "technology-postgresql": {
+    "color": "#4169E1",
+    "parameters": {
+      "logo": "postgresql",
+      "logoColor": "white"
+    }
+  },
+  "technology-graphql": {
+    "color": "#E10098",
+    "parameters": {
+      "logo": "graphql",
+      "logoColor": "white"
+    }
+  },
+  "technology-figma": {
+    "color": "#F24E1E",
+    "parameters": {
+      "logo": "figma",
+      "logoColor": "white"
+    }
+  },
+  "technology-cypress": {
+    "color": "#17202C",
+    "parameters": {
+      "logo": "cypress",
+      "logoColor": "white"
+    }
+  },
+  "technology-sonarqube": {
+    "color": "#126ED3",
+    "parameters": {
+      "logo": "sonarqubeserver",
+      "logoColor": "white"
+    }
+  },
+  "technology-keycloak": {
+    "color": "#4D4D4D",
+    "parameters": {
+      "logo": "keycloak",
+      "logoColor": "white"
+    }
+  },
+  "technology-azure": {
+    "color": "#0078D4",
+    "parameters": {
+      "logo": "data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTI4IDEyOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNDMuOTgzIDQuNjUzYTUuOTExIDUuOTExIDAgMDE1LjYgNC4wMjJsMzUuOTEgMTA2LjM5NmE1LjkxMSA1LjkxMSAwIDAxLTUuNjAzIDcuODAyaDQxLjM4YTUuOTE3IDUuOTE3IDAgMDA0LjgtMi40NjUgNS45MDkgNS45MDkgMCAwMC43OTgtNS4zNEw5MC45NjEgOC42NzJhNS45MSA1LjkxIDAgMDAtNS42MDItNC4wMjJ6bS0xLjMzNi40NzhhNS45MiA1LjkyIDAgMDAtNS42MSA0LjAyOUwxLjEzMiAxMTUuNTVhNS45MSA1LjkxIDAgMDA1LjYgNy44aDI4Ljg5M2MxLjIzOSAwIDIuNDQ2LS40MSAzLjQ1Mi0xLjExM2E1LjkyMyA1LjkyMyAwIDAwMi4xNTctMi45MTZsNy4wMTktMjAuNzEtMTMuNDExLTEyLjg1N2MtLjI0Ni0uMjczLTEuMzUzLTIuMjc0LS4zNjktNC4wMDIgMS4xMDgtMS42NTkgMi45NTUtMS42NTkgMi45NTUtMS42NTloMTcuMjg1bDkuMDc0LTI2LjE0NUw0OC4yNzQgOC4zMjFjLS4wNDItLjIwNS0uOTE0LTEuMzY1LTIuMjgxLTIuMjgtMS4zNy0uOTE1LTMuMzQ1LS45MDktMy4zNDUtLjkwOXptLTQuODggNzUuNzRhMi43MjQgMi43MjQgMCAwMC0xLjg2IDQuNzE4bDM3LjgzIDM1LjMxYzEuMTAxIDEuMDMgMi41MDIgMS42MzEgNC4wMDcgMS42MzEgMCAwIDEuMjgyLjA2OCAyLjA1NS0uMDMzIDEuODE3LS4yNzMgMy41MjUtMS43NjggNC4wOS0yLjM5IDEuNDU3LTEuOTM5Ljc5NC00Ljk1Ljc5NC00Ljk1bC0xMS40NS0zNC4yOHoiIGZpbGw9IiNmZmYiLz48L3N2Zz4K"
+    },
+    "source": "https://raw.githubusercontent.com/devicons/devicon/32fe1d3b3f36ad11f90ab94f7db59738139c2bf6/icons/azure/azure-plain.svg"
   }
 }
