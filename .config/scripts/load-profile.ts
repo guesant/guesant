@@ -2,6 +2,7 @@ import { readFile } from 'node:fs/promises';
 import { parse } from 'yaml';
 import { parseProfile } from './parse-profile.ts';
 import type { Profile } from './profile.types.ts';
+import { responseText } from './response-text.ts';
 
 export async function loadProfile(localFile?: string): Promise<Profile> {
   let source: string;
@@ -14,16 +15,12 @@ export async function loadProfile(localFile?: string): Promise<Profile> {
       signal: AbortSignal.timeout(15000),
       headers: {
         accept: 'application/yaml',
+        'user-agent':
+          'guesant-profile-generator/1.0 (+https://github.com/guesant/guesant)',
       },
     });
 
-    if (!response.ok) {
-      throw new Error(
-        `Profile download failed: HTTP ${String(response.status)}`,
-      );
-    }
-
-    source = await response.text();
+    source = await responseText(response);
   }
 
   if (Buffer.byteLength(source) > 1048576) {
