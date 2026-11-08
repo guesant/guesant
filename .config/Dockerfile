@@ -127,7 +127,17 @@ COPY tools/readme-generator/package.json tools/readme-generator/pnpm-lock.yaml t
 FROM generator-base AS generator-dependencies
 RUN pnpm install --prod --frozen-lockfile
 
+FROM generator-base AS generator-zlib
+RUN apt-get update \
+  && cd /tmp \
+  && apt-get download zlib1g=1:1.3.dfsg+really1.3.1-1+deb13u1 \
+  && dpkg-deb --extract ./zlib1g_*.deb /opt/zlib \
+  && dpkg-deb --control ./zlib1g_*.deb /tmp/zlib-control \
+  && install -D -m 644 /tmp/zlib-control/control /opt/zlib/var/lib/dpkg/status.d/zlib1g \
+  && install -D -m 644 /tmp/zlib-control/md5sums /opt/zlib/var/lib/dpkg/status.d/zlib1g.md5sums
+
 FROM gcr.io/distroless/nodejs24-debian13:latest@sha256:03980f6fd2a3245fa06e371c36fd33528ebbc676a1d0f84e3e21d95cd291b807 AS generator
+COPY --from=generator-zlib /opt/zlib/ /
 WORKDIR /workspace/tools/readme-generator
 COPY --from=generator-dependencies /workspace/tools/readme-generator/node_modules ./node_modules
 CMD ["src/generation/generate.ts"]
