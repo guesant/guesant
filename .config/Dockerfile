@@ -143,10 +143,10 @@ COPY --from=generator-dependencies /workspace/tools/readme-generator/node_module
 CMD ["src/generation/generate.ts"]
 
 FROM node-tools AS cards
-ARG CARDS_REVISION=8614f3a61601854731381d853f8566867754a5ca
+ARG CARDS_REVISION=2c498845f71017821efaad14293ebc736156ef21
 WORKDIR /opt/cards
 RUN git init \
-  && git fetch --depth=1 https://github.com/readme-tools/github-readme-stats-action.git "${CARDS_REVISION}" \
+  && git fetch --depth=1 https://github.com/stats-organization/github-readme-stats-action.git "${CARDS_REVISION}" \
   && git checkout --detach FETCH_HEAD \
   && test "$(git rev-parse HEAD)" = "${CARDS_REVISION}" \
   && pnpm install --prod --frozen-lockfile --ignore-scripts

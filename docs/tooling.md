@@ -16,7 +16,7 @@ O agendamento executa o bot depois dessa ativação. O PAT precisa de escrita
 em Contents, Commit statuses, Issues, Pull requests e Workflows, além de
 leitura dos alertas Dependabot.
 
-O gerador usa o preset TypeScript e o formatter do Lobby com escopo próprio. A geração dos cards usa a revisão `8614f3a61601854731381d853f8566867754a5ca` da action e seu lockfile.
+O gerador usa o preset TypeScript e o formatter do Lobby com escopo próprio. A geração dos cards usa a revisão `2c498845f71017821efaad14293ebc736156ef21` da action e seu lockfile.
 
 ## Checagens locais
 
@@ -38,7 +38,7 @@ docker compose -f .config/compose.yaml -f .config/compose.local.yaml run --build
 ```
 
 Use apenas o primeiro arquivo Compose para gerar com os dados públicos das
-revisões remotas. O target `cards` usa o pacote core de versão `2.1.2` já
+revisões remotas. O target `cards` usa o pacote core de versão `2.2.0` já
 instalado pelo lockfile da revisão indicada.
 
 A imagem do gerador usa Node 24.22.2 no mesmo Debian Bookworm. O pin foi

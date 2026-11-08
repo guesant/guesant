@@ -10,6 +10,7 @@ fi
 
 export PAT_1="$PROFILE_STATS_TOKEN"
 export INPUT_CORE_VERSION=''
+export INPUT_FAIL_ON_ERROR=true
 export GITHUB_OUTPUT="${GITHUB_OUTPUT:-/dev/null}"
 cards=$(mktemp -d profile/.cards.XXXXXX)
 trap 'rm -f -- "$cards/stats.svg" "$cards/top-langs.svg"; rmdir "$cards"' EXIT
