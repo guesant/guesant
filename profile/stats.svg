@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Gabriel R. Antunes&#39; GitHub Stats, Rank: A+</title>
-        <desc id="descId">Total Stars Earned: 91, Total Commits  (last year) : 3986, Total PRs: 1323, Total Issues: 546, Contributed to (last year): 13</desc>
+        <title id="titleId">Gabriel R. Antunes&#39; GitHub Stats, Rank: A</title>
+        <desc id="descId">Total Stars Earned: 91, Total Commits  (last year) : 2384, Total PRs: 1333, Total Issues: 549, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 31.095419288887033;
+        stroke-dashoffset: 38.54685843762124;
       }
     }
   
@@ -150,7 +150,7 @@
         <g class="rank-text">
           
         <text x="-5" y="3" alignment-baseline="central" dominant-baseline="central" text-anchor="middle" data-testid="level-rank-icon">
-          A+
+          A
         </text>
       
         </g>
@@ -184,7 +184,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >4k</text>
+      >2.4k</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -214,7 +214,7 @@
         x="224.01"
         y="12.5"
         data-testid="issues"
-      >546</text>
+      >549</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -229,7 +229,7 @@
         x="224.01"
         y="12.5"
         data-testid="contribs"
-      >13</text>
+      >0</text>
     </g>
   </g>
     </svg>
