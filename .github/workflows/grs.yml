@@ -14,53 +14,29 @@ concurrency:
 
 jobs:
   generate:
-    if: github.ref == 'refs/heads/profile'
+    if: github.ref == 'refs/heads/main'
     timeout-minutes: 10
     runs-on: ubuntu-24.04
     permissions:
       contents: write
     steps:
-      - name: Checkout profile
+      - name: Checkout main
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          ref: profile
+          ref: ${{ github.sha }}
           persist-credentials: false
-      - name: Build pinned generator
-        run: docker build --file .config/Dockerfile --tag profile-generator .
-      - name: Check and generate README
+      - name: Check and generate README in Docker
         run: |
           set -eu
-          docker run --rm --volume "$GITHUB_WORKSPACE:/workspace" \
-            --volume /workspace/.config/node_modules profile-generator \
-            sh -eu -c 'pnpm run check && pnpm run generate'
-      - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@8614f3a61601854731381d853f8566867754a5ca
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=holi
-          path: profile/stats.svg
-          token: ${{ github.token }}
-      - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@8614f3a61601854731381d853f8566867754a5ca
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&theme=holi
-          path: profile/top-langs.svg
-          token: ${{ github.token }}
-      - name: Commit generated files when changed
+          docker compose -f .config/compose.yaml run --build --rm test
+          docker compose -f .config/compose.yaml run --build --rm generator
+      - name: Generate both cards in Docker
         env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          set -eu
-          test -s README.md
-          test -s profile/stats.svg
-          test -s profile/top-langs.svg
-          git add -- README.md profile/stats.svg profile/top-langs.svg
-          if git diff --cached --quiet; then
-            exit 0
-          fi
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'chore(profile): refresh generated profile and cards'
-          gh auth setup-git
-          git push origin HEAD:profile
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: docker compose -f .config/compose.yaml run --build --rm cards
+      - name: Publish generated files from Docker
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_SHA: ${{ github.sha }}
+        run: docker compose -f .config/compose.yaml run --build --rm publish

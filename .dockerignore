@@ -1,4 +1,4 @@
 .git
-.config/node_modules
+**/node_modules
 .local
-README.md.tmp
+.readme-generator-*

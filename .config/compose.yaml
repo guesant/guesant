@@ -1,18 +1,233 @@
-name: guesant-profile
+name: guesant-guesant
+
+x-workspace: &workspace
+  working_dir: /workspace
+  volumes:
+    - ..:/workspace
+  init: true
+
+x-build: &build
+  context: ..
+  dockerfile: .config/Dockerfile
+
+x-cli: &cli
+  working_dir: /workspace
+  volumes:
+    - ..:/workspace:ro
+
+x-cli-build: &cli-build
+  context: ..
+  dockerfile: .config/Dockerfile
+
 services:
-  generator:
+  quality:
+    <<: *workspace
+    image: guesant-guesant-quality:local
     build:
-      context: ..
-      dockerfile: .config/Dockerfile
-    working_dir: /workspace/.config
+      <<: *build
+      target: quality
+    environment:
+      PROFILE_CHECK_MODE: ${PROFILE_CHECK_MODE:-full}
+      TRIVY_CACHE_DIR: /workspace/.local/trivy
     volumes:
       - ..:/workspace
-      - dependencies:/workspace/.config/node_modules
-      - ../../links:/sources/lobby:ro
-      - ../../resume:/sources/resume:ro
+      - /workspace/tools/readme-generator/node_modules
+  semgrep:
+    <<: *workspace
+    build:
+      <<: *build
+      target: semgrep
+    entrypoint: ["/bin/sh"]
+    command: [".config/scan-semgrep.sh", ".local/reports/sarif/semgrep.sarif", "typescript", ".github", "tools/readme-generator/src"]
+  image-audit:
+    <<: *workspace
+    image: guesant-guesant-quality:local
+    build:
+      <<: *build
+      target: quality
+    environment:
+      TRIVY_CACHE_DIR: /workspace/.local/trivy
+    command: ["bash", ".config/scan-image.sh"]
+  snapshot:
+    <<: *workspace
+    build:
+      <<: *build
+      target: dependency-submission
+    environment:
+      - GITHUB_TOKEN
+      - GITHUB_REPOSITORY
+      - GITHUB_SHA
+      - GITHUB_REF
+      - GITHUB_RUN_ID
+    command: ["python3", ".config/submit-sbom.py", ".local/reports/sbom.cdx.json", "tools/readme-generator/pnpm-lock.yaml"]
+  generator:
+    <<: *workspace
+    working_dir: /workspace/tools/readme-generator
+    image: guesant-guesant-generator:local
+    build:
+      <<: *build
+      target: generator
+    volumes:
+      - ..:/workspace
+      - /workspace/tools/readme-generator/node_modules
     environment:
       PROFILE_LOBBY_DIR: ${PROFILE_LOBBY_DIR:-}
       PROFILE_RESUME_DIR: ${PROFILE_RESUME_DIR:-}
-    init: true
-volumes:
-  dependencies:
+  lint:
+    extends: generator
+    image: guesant-profile-lint:local
+    build:
+      target: lint
+  format:
+    extends: generator
+    image: guesant-profile-format:local
+    build:
+      target: format
+  test:
+    extends: generator
+    image: guesant-profile-test:local
+    build:
+      target: test
+  cards:
+    <<: *workspace
+    build:
+      <<: *build
+      target: cards
+    environment:
+      - GITHUB_TOKEN
+      - GITHUB_REPOSITORY_OWNER
+  publish:
+    <<: *workspace
+    build:
+      <<: *build
+      target: publish
+    environment:
+      - GITHUB_TOKEN
+      - GITHUB_SHA
+
+  renovate:
+    build:
+      context: ..
+      dockerfile: .config/Dockerfile
+      target: renovate
+    working_dir: /workspace
+    volumes:
+      - ..:/workspace:ro
+    environment:
+      - GIT_CONFIG_COUNT=1
+      - GIT_CONFIG_KEY_0=safe.directory
+      - GIT_CONFIG_VALUE_0=/workspace
+      - RENOVATE_TOKEN
+      - RENOVATE_DRY_RUN
+      - RENOVATE_PLATFORM
+      - RENOVATE_REPOSITORIES
+      - RENOVATE_USERNAME
+      - RENOVATE_ONBOARDING
+      - RENOVATE_REQUIRE_CONFIG
+      - RENOVATE_PLATFORM_COMMIT
+      - RENOVATE_ALLOW_SCRIPTS
+  scorecard:
+    platform: linux/amd64
+    build:
+      context: ..
+      dockerfile: .config/Dockerfile
+      target: scorecard
+    volumes:
+      - ..:/workspace:ro
+    command: ["--local", "/workspace"]
+
+  actionlint:
+    <<: *cli
+    build: { <<: *cli-build, target: actionlint }
+    entrypoint: ["/usr/local/bin/actionlint"]
+    command: ["--version"]
+
+  zizmor:
+    <<: *cli
+    build: { <<: *cli-build, target: zizmor }
+    entrypoint: ["/usr/bin/zizmor"]
+    command: ["--version"]
+
+  hadolint:
+    <<: *cli
+    build: { <<: *cli-build, target: hadolint }
+    entrypoint: ["/bin/hadolint"]
+    command: ["--version"]
+
+  shellcheck:
+    <<: *cli
+    build: { <<: *cli-build, target: shellcheck }
+    entrypoint: ["/bin/shellcheck"]
+    command: ["--version"]
+
+  shfmt:
+    <<: *cli
+    build: { <<: *cli-build, target: shfmt }
+    entrypoint: ["/bin/shfmt"]
+    command: ["--version"]
+
+  gitleaks:
+    <<: *cli
+    build: { <<: *cli-build, target: gitleaks }
+    entrypoint: ["/usr/bin/gitleaks"]
+    command: ["--version"]
+
+  osv-scanner:
+    <<: *cli
+    build: { <<: *cli-build, target: osv-scanner }
+    entrypoint: ["/osv-scanner"]
+    command: ["--version"]
+
+  trivy:
+    <<: *cli
+    build: { <<: *cli-build, target: trivy }
+    entrypoint: ["/usr/local/bin/trivy"]
+    command: ["--version"]
+
+  ast-grep:
+    <<: *cli
+    build: { <<: *cli-build, target: ast-grep }
+    entrypoint: ["ast-grep"]
+    command: ["--version"]
+
+  markdownlint:
+    <<: *cli
+    build: { <<: *cli-build, target: markdownlint }
+    entrypoint: ["markdownlint-cli2"]
+    command: ["--version"]
+
+  yamllint:
+    <<: *cli
+    build: { <<: *cli-build, target: yamllint }
+    entrypoint: ["/opt/python/.venv/bin/yamllint"]
+    command: ["--version"]
+
+  jscpd:
+    <<: *cli
+    build: { <<: *cli-build, target: jscpd }
+    entrypoint: ["jscpd"]
+    command: ["--version"]
+
+  eslint:
+    <<: *cli
+    build: { <<: *cli-build, target: eslint }
+    entrypoint: ["eslint"]
+    command: ["--version"]
+
+  prettier:
+    <<: *cli
+    build: { <<: *cli-build, target: prettier }
+    entrypoint: ["prettier"]
+    command: ["--version"]
+
+  knip:
+    <<: *cli
+    build: { <<: *cli-build, target: knip }
+    entrypoint: ["knip"]
+    command: ["--version"]
+
+  vitest:
+    <<: *cli
+    build: { <<: *cli-build, target: vitest }
+    entrypoint: ["vitest"]
+    command: ["--version"]

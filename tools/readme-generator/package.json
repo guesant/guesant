@@ -1,0 +1,32 @@
+{
+  "name": "guesant-profile-generator",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.16.1+sha512.091d1dee7927575661b25dab3c2ae31cafc1c54d6b71ed6a6600cf0c1cb10434a447eae14015f1b23e2e6bedeed79df94a932e2164d2832280dce3fb32f656d1",
+  "scripts": {
+    "generate": "node src/generation/generate.ts",
+    "check": "tsc --project tsconfig.json && vitest run",
+    "lint": "eslint src && knip && jscpd --min-tokens 50 --min-lines 5 --skip-comments --format typescript --ignore \"**/*.test.*,**/fixtures/**\" --reporters console --threshold 0 src",
+    "format": "prettier --check \"src/**/*.ts\"",
+    "format:fix": "prettier --write \"src/**/*.ts\" && eslint --fix src"
+  },
+  "dependencies": {
+    "inversify": "8.2.4",
+    "yaml": "2.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "24.19.2",
+    "typescript": "6.0.3",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.14.0",
+    "eslint-plugin-simple-import-sort": "14.0.0",
+    "eslint-plugin-sonarjs": "^4.2.2",
+    "typescript-eslint": "8.72.1",
+    "prettier": "3.6.2",
+    "prettier-plugin-multiline-arrays": "4.1.9",
+    "knip": "6.44.1",
+    "jscpd": "^5.4.2",
+    "fast-check": "4.10.2",
+    "vitest": "5.1.0"
+  }
+}

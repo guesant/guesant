@@ -1,0 +1,8 @@
+services:
+  generator:
+    volumes:
+      - ../../links:/sources/lobby:ro
+      - ../../resume:/sources/resume:ro
+    environment:
+      PROFILE_LOBBY_DIR: /sources/lobby
+      PROFILE_RESUME_DIR: /sources/resume

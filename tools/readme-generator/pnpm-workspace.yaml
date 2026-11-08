@@ -1,0 +1,8 @@
+minimumReleaseAge: 1440
+blockExoticSubdeps: true
+strictDepBuilds: true
+packageImportMethod: copy
+allowBuilds:
+  esbuild: true
+  unrs-resolver: true
+verifyDepsBeforeRun: false
