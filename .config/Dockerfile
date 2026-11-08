@@ -116,16 +116,21 @@ RUN node /opt/link-tool-modules.mjs /opt/tooling-modules /opt/tools
 
 COPY --from=osv-scanner /osv-scanner /usr/local/bin/osv-scanner
 
-FROM node:24.22.2-bookworm-slim@sha256:01d566e8d94d8c619591d78652babfccd3c6992a3dffa9ed5ab39e11cf6c70e9 AS generator-base
+FROM node:24.22.2-trixie-slim@sha256:0820eaa85e07d0490446dd01d14707e17e6108a36988cf374899cd057eb3812d AS generator-base
 COPY --from=node-tools /opt/corepack /opt/corepack
-RUN node /opt/corepack/dist/corepack.js enable pnpm --install-directory /usr/local/bin
+RUN rm -rf /usr/local/lib/node_modules/npm /usr/local/bin/npm /usr/local/bin/npx \
+  && node /opt/corepack/dist/corepack.js enable pnpm --install-directory /usr/local/bin
 ENV PNPM_CONFIG_STORE_DIR=/pnpm/store
 WORKDIR /workspace/tools/readme-generator
 COPY tools/readme-generator/package.json tools/readme-generator/pnpm-lock.yaml tools/readme-generator/pnpm-workspace.yaml ./
 
-FROM generator-base AS generator
+FROM generator-base AS generator-dependencies
 RUN pnpm install --prod --frozen-lockfile
-CMD ["pnpm", "run", "generate"]
+
+FROM gcr.io/distroless/nodejs24-debian13:latest@sha256:03980f6fd2a3245fa06e371c36fd33528ebbc676a1d0f84e3e21d95cd291b807 AS generator
+WORKDIR /workspace/tools/readme-generator
+COPY --from=generator-dependencies /workspace/tools/readme-generator/node_modules ./node_modules
+CMD ["src/generation/generate.ts"]
 
 FROM node-tools AS cards
 ARG CARDS_REVISION=8614f3a61601854731381d853f8566867754a5ca
@@ -142,7 +147,7 @@ FROM node-tools AS publish
 CMD ["bash", ".config/publish-profile.sh"]
 
 FROM repository-tools AS quality
-COPY --from=generator /workspace/tools/readme-generator/node_modules /workspace/tools/readme-generator/node_modules
+COPY --from=generator-dependencies /workspace/tools/readme-generator/node_modules /workspace/tools/readme-generator/node_modules
 RUN cp -as /opt/tooling-modules/. /workspace/tools/readme-generator/node_modules/
 CMD ["just", "check"]
 
