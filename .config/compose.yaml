@@ -94,7 +94,7 @@ services:
       <<: *build
       target: cards
     environment:
-      - GITHUB_TOKEN
+      - PROFILE_STATS_TOKEN
       - GITHUB_REPOSITORY_OWNER
   publish:
     <<: *workspace

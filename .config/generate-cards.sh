@@ -1,7 +1,14 @@
 #!/bin/sh
 set -eu
 
-export PAT_1="${GITHUB_TOKEN:?Set GITHUB_TOKEN}"
+if [ -z "${PROFILE_STATS_TOKEN:-}" ]; then
+  printf '%s\n' '::warning::PROFILE_STATS_TOKEN is missing; keeping the last valid cards.'
+  grep -Fq 'data-testid="stars"' profile/stats.svg
+  grep -Fq 'data-testid="lang-items"' profile/top-langs.svg
+  exit 0
+fi
+
+export PAT_1="$PROFILE_STATS_TOKEN"
 export INPUT_CORE_VERSION=''
 export GITHUB_OUTPUT="${GITHUB_OUTPUT:-/dev/null}"
 cards=$(mktemp -d profile/.cards.XXXXXX)
