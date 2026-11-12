@@ -6,3 +6,5 @@ allowBuilds:
   esbuild: true
   unrs-resolver: true
 verifyDepsBeforeRun: false
+overrides:
+  minimatch: 11.0.1
