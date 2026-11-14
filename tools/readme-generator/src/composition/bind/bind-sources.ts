@@ -2,6 +2,7 @@ import type {
   BadgeStylesLoader,
   ProfileLoader,
 } from '../../generation/generation.types.ts';
+import { GitHubApiRequestAuthorizer } from '../../sources/authorize-request.ts';
 import { HttpSourceDownloader } from '../../sources/download.ts';
 import type { YamlLoader } from '../../sources/load/load.types.ts';
 import { YamlProfileLoader } from '../../sources/load/load-profile.ts';
@@ -13,6 +14,7 @@ import { HttpResponseTextReader } from '../../sources/response-text.ts';
 import type {
   ResponseTextReader,
   SourceDownloader,
+  SourceRequestAuthorizer,
 } from '../../sources/sources.types.ts';
 import { configureInjection } from '../configure-injection.ts';
 import { serviceSymbols } from '../service-symbols.ts';
@@ -20,6 +22,7 @@ import type { Container } from 'inversify';
 
 configureInjection(HttpSourceDownloader, [
   serviceSymbols.responseText,
+  serviceSymbols.requestAuthorizer,
 ]);
 
 configureInjection(YamlProfileLoader, [
@@ -40,6 +43,12 @@ export function bindSources(container: Container): void {
   container
     .bind<SourceDownloader>(serviceSymbols.download)
     .to(HttpSourceDownloader);
+
+  container
+    .bind<SourceRequestAuthorizer>(serviceSymbols.requestAuthorizer)
+    .toConstantValue(
+      new GitHubApiRequestAuthorizer(process.env['GITHUB_TOKEN']),
+    );
 
   container
     .bind<ProfileLoader>(serviceSymbols.loadProfile)
