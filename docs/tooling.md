@@ -10,11 +10,10 @@ O Scorecard usa a action oficial fixada por SHA. Sua imagem interna
 `v2.5.0` é a exceção registrada para preservar a publicação oficial.
 
 Configure `RENOVATE_TOKEN` no environment `renovate` com um fine-grained PAT
-restrito a este repositório. Execute o modo manual dry-run autenticado e confira
-a extração antes de definir `RENOVATE_ENABLED=true` no mesmo environment.
-O agendamento executa o bot depois dessa ativação. O PAT precisa de escrita
-em Contents, Commit statuses, Issues, Pull requests e Workflows, além de
-leitura dos alertas Dependabot.
+restrito a este repositório. As execuções agendada e manual usam o modo normal
+do Renovate e podem criar ou atualizar PRs. O PAT precisa de escrita em
+Contents, Commit statuses, Issues, Pull requests e Workflows, além de leitura
+dos alertas Dependabot.
 
 O gerador usa o preset TypeScript e o formatter do Lobby com escopo próprio. A geração dos cards usa a revisão `2c498845f71017821efaad14293ebc736156ef21` da action e seu lockfile.
 
@@ -61,7 +60,9 @@ estágios. A imagem de qualidade reúne os executáveis desses estágios.
 Os plugins do ESLint e as dependências do Vitest acompanham seus respectivos
 executores.
 
-A imagem da ferramenta pode ser executada pelo Compose. Por exemplo:
+A imagem da ferramenta pode ser executada pelo Compose. O comando abaixo
+inspeciona apenas a extração local; os workflows do GitHub executam o Renovate
+em modo normal:
 
 ```sh
 docker compose -f .config/compose.yaml run --build --rm actionlint
