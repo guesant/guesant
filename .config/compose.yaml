@@ -73,6 +73,7 @@ services:
     environment:
       PROFILE_LOBBY_DIR: ${PROFILE_LOBBY_DIR:-}
       PROFILE_RESUME_DIR: ${PROFILE_RESUME_DIR:-}
+      GITHUB_TOKEN: ${GITHUB_TOKEN:-}
   lint:
     extends: generator
     image: guesant-profile-lint:local
@@ -88,6 +89,8 @@ services:
     image: guesant-profile-test:local
     build:
       target: test
+    environment:
+      GITHUB_TOKEN: ''
   cards:
     <<: *workspace
     build:

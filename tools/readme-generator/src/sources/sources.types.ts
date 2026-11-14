@@ -5,3 +5,7 @@ export type SourceDownloader = {
 export type ResponseTextReader = {
   responseText(response: Response): Promise<string>;
 };
+
+export type SourceRequestAuthorizer = {
+  headers(url: URL): Record<string, string>;
+};

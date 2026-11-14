@@ -29,6 +29,7 @@ export const serviceSymbols = {
   loadYaml: Symbol('YamlLoader'),
   repositorySource: Symbol('RepositorySourceResolver'),
   responseText: Symbol('ResponseTextReader'),
+  requestAuthorizer: Symbol('SourceRequestAuthorizer'),
   writeReadme: Symbol('ReadmeWriter'),
   readmeGenerator: Symbol('ReadmeGenerator'),
 } as const;
